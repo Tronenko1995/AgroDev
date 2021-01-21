@@ -1153,7 +1153,7 @@
         <div class="xag-main__bottom">
             <div class="xag-main__bottom-left">
                 <p class="xag-main__text-brand">XAG</p>
-                <p class="xag-main__text-title">Китайская компания xag —</p>
+                <p class="xag-main__text-title">Китайская компания XAG —</p>
                 <p class="xag-main__text">Это один из крупнейших производителей сельскохозяйственных дронов в мире. Ее продукция отличается высокой прочностью и устойчивостью конструкции и хорошей базовой комплектацией. XAG предлагают также передовую интеллектуальную систему управления и подготовки полетных заданий.</p>
             </div>
             <div class="xag-main__bottom-right">
@@ -1250,7 +1250,7 @@
                 <li class="xag-features__item xag-features__item-4 xag-features__item--top xag-features__text">Дроны XAG оборудованы радиолокаторами, камерой FPV и модулем для работы с 5G-сетями для большей безопасности дрона в воздухе и нужд оператора.</li>
                 <li class="xag-features__item xag-features__item-5 xag-features__item--left xag-features__text">Класс защиты IP67 гарантирует не только брызгозащищенность дрона, но и его исправность после 30 минут в воде на глубине до 1,5 м;</li>
                 <li class="xag-features__item xag-features__item-6 xag-features__item--left xag-features__text">Возможность управления полетом на расстоянии до 1 км (скорость полета до 10 м/с);</li>
-                <li class="xag-features__item xag-features__item-7 xag-features__item--left xag-features__text">Объемные сменные баки с возможностью автоматической заправки (станция приобретается отдельно);</li>
+                <li class="xag-features__item xag-features__item-7 xag-features__item--left xag-features__text">система опрыскивания позволяет регулировать расход раствора и размер микрокапли без замены форсунок и распылителей;</li>
             </ul>
         </div>
     </div>
@@ -1284,7 +1284,7 @@
                 </div>
                 <div class="agrodom-offers__center-item">
                     <div class="agrodom-offers__center-item-svg svg-drone-3"></div>
-                    <p class="agrodom-offers__center-item-text agrodom-offers__text">Полное техническое обслуживание сельскохозяйственных дронов DJI и XAG</p>
+                    <p class="agrodom-offers__center-item-text agrodom-offers__text">Полное техническое обслуживание сельскохозяйственных дронов</p>
                     <p class="agrodom-offers__center-item-description agrodom-offers__center-item-text agrodom-offers__text">У нас вы получите лётный сертификат, который удостоверит пройденный курс.</p>
                 </div>
                 <div class="agrodom-offers__center-item">
@@ -1302,7 +1302,7 @@
 
 
 <div class="xag-download">
-    <a class="xag-download__link" href="/files/XAG-price.pdf" target="_blank"><span class="xag-download__svg svg-download"></span>Скачать прайс дронов DJI</a>
+    <a class="xag-download__link" href="/files/XAG-price.pdf" target="_blank"><span class="xag-download__svg svg-download"></span>Скачать прайс дронов XAG</a>
 </div>
 
 
@@ -1453,8 +1453,9 @@
         <form action="" class="xag-modal__form">
             <p class="xag-modal__title xag-modal__text">Оставьте заявку</p>
             <p class="xag-modal__form-text xag-modal__text">и мы свяжемся с вами в ближайшее время</p>
-            <input class="xag-modal__input" type="text" placeholder="Ваше имя">
-            <input class="xag-modal__input jsPhone" type="text" placeholder="+7 (___)-___-__-__">
+            <input class="xag-modal__input" type="text" name="name" placeholder="Ваше имя">
+            <input class="xag-modal__input jsPhone" type="text" name="phone" placeholder="+7 (___)-___-__-__">
+            <input type="hidden" name="product" value="XAG">
             <button class="xag-modal__button xag-modal__form-button" type="submit">Связаться с нами</button>
         </form>
         <form action="" class="xag-modal__form2">
@@ -1489,6 +1490,25 @@ const closeModal = function() {
     form.reset();
 };
 
+const sendmail = function() {
+
+const formData = new FormData(form);
+
+fetch('/files/php/mail.php', {
+    method: 'POST',
+    body: formData
+})
+.then(data => data.text())
+.then(data => {
+    console.log(data);
+    modal.classList.add('success');
+})
+.catch(data => {
+    console.error(data);
+    modal.classList.add('error2');
+})
+}
+
 modal.addEventListener('click', (e) => {
     if ( e.target.classList.contains('new-close') ) {
         closeModal();
@@ -1514,7 +1534,7 @@ button.addEventListener('click', (e) => {
 
 form.addEventListener('submit', (e) => {
     e.preventDefault();
-    modal.classList.add('success');
+    sendmail();
 });
 
 form2.addEventListener('submit', (e) => {
