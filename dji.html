@@ -1,0 +1,1727 @@
+<style>
+
+    #page {
+        margin-bottom: 0;
+    }
+    #page .container {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    #page .row {
+        padding: 0;
+        margin: 0;
+    }
+    h1.title {
+        display: none !important;
+    }
+    #content-inner {
+        padding: 0 !important;
+    }
+
+
+    .dji-main {
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        position: relative;
+    }
+    .dji-main__rectangle {
+        width: 100%;
+        height: 277px;
+        background: url('/files/img/dji/rectangle-min.png');
+        position: absolute;
+        z-index: -1;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+    }
+    .dji-main__wrap {
+        width: 1170px;
+    }
+    .dji-main__top {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+    .dji-main__top-left {
+        margin-top: 95px;
+        width: 508px;
+    }
+    .dji-main__title {
+        font-family: Roboto !important;
+        font-style: normal !important;
+        font-weight: 500 !important;
+        font-size: 48px !important;
+        line-height: 56px !important;
+        color: #333333 !important;
+        margin: 0 !important;
+        text-align: left !important;
+        text-transform: none !important;
+    }
+    .dji-main__bottom {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+    .dji-main__bottom-left {
+        margin-top: 50px;
+        position: relative;
+        width: 508px;
+    }
+    .dji-main__text-title,
+    .dji-main__text {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 24px;
+        color: #333333;
+        margin: 0;
+    }
+    .dji-main__text-brand {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 96px;
+        line-height: 112px;
+        color: #F2F2F2;
+        position: absolute;
+        z-index: -1;
+        top: -46px;
+        left: 205px;
+    }
+    .dji-main__text {
+        padding-top: 40px;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    .dji-main__top-right {
+        margin-top: 50px;
+    }
+    .dji-main__img {
+        width: 564px;
+        height: 233px;
+    }
+    .dji-main__bottom-right {
+        margin-top: 50px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        width: 662px;
+    }
+    .dji-main__img-text {
+        width: 384px;
+        height: 170px;
+    }
+
+
+    .dji-why-good {
+        margin-top: 112px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .dji-why-good__wrap {
+        width: 1170px;
+    }
+    .dji-why-good__header {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .dji-why-good__text {
+        margin: 0;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #333333;
+    }
+    .dji-why-good__title {
+        font-weight: 500;
+        font-size: 36px;
+    }
+    .dji-why-good__center {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        margin-top: 56px;
+    }
+    .dji-why-good__center-left {
+        width: 540px;
+    }
+    .dji-why-good__center-left-top-text {
+        margin-bottom: 40px;
+    }
+    .dji-why-good__center-left-top-text:last-child {
+        margin-bottom: 0px;
+    }
+    .dji-why-good__center-left-bottom {
+        margin-top: 23px;
+    }
+    .dji-why-good__center-right {
+        width: 538px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .dji-why-good__center-right-items {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+    .dji-why-good__center-right-item {
+        width: 254px;
+        padding: 24px 24px 24px 20px;
+        border: 1px solid #E0E0E0;
+        margin-top: 30px;
+    }
+    .dji-why-good__center-right-item:nth-child(1),
+    .dji-why-good__center-right-item:nth-child(2) {
+        margin-top: 0px;
+    }
+    .dji-why-good__center-right-item-text {
+        min-height: 120px;
+    }
+    .dji-why-good__text--number {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 24px;
+        color: #2A7AC0;
+        padding-bottom: 16px;
+    }
+    .dji-why-good__img {
+        width: 538px;
+        height: 255px;
+    }
+
+
+    .dji-auto {
+        margin-top: 116px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .dji-auto__wrap {
+        width: 1170px;
+    }
+    .dji-auto__top {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+    .dji-auto__top-left {
+        width: 298px;
+    }
+    .dji-auto__top-right {
+        width: 538px;
+    }
+    .dji-auto__text {
+        margin: 0;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #333333;
+    }
+    .dji-auto__title {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .dji-auto__bottom {
+        margin-top: 45px;
+        width: 100%;
+        height: auto;
+    }
+    .dji-auto__img {
+        width: 100%;
+        height: auto;
+    }
+
+    .dji-solution {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        margin-top: 112px;
+    }
+    .dji-solution__img {
+        width: 100%;
+        height: 708px;
+        background: url('/files/img/dji/dji-solution-min.png');
+        position: absolute;
+        z-index: -1;
+        background-repeat: no-repeat;
+    }
+    .dji-solution__wrap {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+        width: 1170px;
+    }
+    .dji-solution__left {}
+    .dji-solution__right {
+        width: 491px;
+        margin-top: 140px;
+        margin-bottom: 108px;
+    }
+    .dji-solution__text {
+        margin: 0;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #333333;
+    }
+    .dji-solution__title {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 140%;
+        color: #333333;
+    }
+    .dji-solution__list {
+        margin-top: 56px;
+        list-style: none;
+    }
+    .dji-solution__list-item {
+        margin-bottom: 20px !important;
+        position: relative;
+    }
+    .dji-solution__list-item:last-child {
+        margin-bottom: 0px !important;
+    }
+    .dji-solution__list-item::before,
+    .dji-solution__list-item::after {
+        content: '';
+        position: absolute;
+        background: #2A7AC0;
+        -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+                transform: rotate(45deg);
+    }
+    .dji-solution__list-item::before {
+        left: -20px;
+        opacity: 0.3;
+        width: 8px;
+        height: 8px;
+        top: 7px;
+    }
+    .dji-solution__list-item::after {
+        left: -18px;
+        width: 4px;
+        height: 4px;
+        top: 9px;
+    }
+
+
+    .dji-features {
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        margin-top: 112px;
+    }
+    .dji-features__wrap {
+        width: 1170px;
+    }
+    .dji-features__header {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .dji-features__text {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #333333;
+    }
+    .dji-features__title {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+    }
+    .dji-features__list {
+        list-style: none;
+        margin: 0 !important;
+    }
+    .dji-features__items {
+        margin-top: 264px;
+        margin-bottom: 254px;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        position: relative;
+    }
+    .dji-features__items::before {
+        background: #F4F8FD;
+        width: 308px;
+        height: 308px;
+        border-radius: 50%;
+        position: absolute;
+        content: '';
+        z-index: -1;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+    }
+    .dji-features__items::after {
+        border: 1px solid #EBF1F8;
+        width: 532px;
+        height: 532px;
+        border-radius: 50%;
+        position: absolute;
+        content: '';
+        z-index: -1;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+    }
+    .dji-features__img {
+        width: 434px;
+        height: 156px;
+    }
+    .dji-features__shadow {
+        width: 266px;
+        height: 3px;
+        background: -webkit-gradient(linear, left top, right top, color-stop(4.57%, rgba(28, 71, 108, 0)), color-stop(50.44%, #1C476C), color-stop(97.31%, rgba(28, 71, 108, 0)));
+        background: -o-linear-gradient(left, rgba(28, 71, 108, 0) 4.57%, #1C476C 50.44%, rgba(28, 71, 108, 0) 97.31%);
+        background: linear-gradient(90deg, rgba(28, 71, 108, 0) 4.57%, #1C476C 50.44%, rgba(28, 71, 108, 0) 97.31%);
+        opacity: 0.3;
+        -webkit-filter: blur(3px);
+                filter: blur(3px);
+        position: absolute;
+        bottom: -44px;
+    }
+    .dji-features__item {
+        position: absolute;
+    }
+    .dji-features__item::before,
+    .dji-features__item::after {
+        content: '';
+        position: absolute;
+        background: #2A7AC0;
+    }
+    .dji-features__item::before {
+        opacity: 0.3;
+        width: 8px;
+        height: 8px;
+        top: 7px;
+        top: 50%
+    }
+    .dji-features__item::after {
+        width: 4px;
+        height: 4px;
+        top: 9px;
+        top: 50%
+    }
+    .dji-features__item-1 {
+        left: 20px;
+        top: -168px;
+        text-align: right;
+        width: 372px;
+    }
+    .dji-features__item-2 {
+        width: 297px;
+        left: 17px;
+        top: 104px;
+        text-align: right;
+    }
+    .dji-features__item-3 {
+        width: 308px;
+        left: 432px;
+        top: 359px;
+    }
+    .dji-features__item-4 {
+        width: 338px;
+        right: 32px;
+        top: -134px;
+    }
+    .dji-features__item-5 {
+        width: 305px;
+        right: 17px;
+        top: 104px;
+    }
+    .dji-features__item--right::before {
+        right: -20px;
+        -webkit-transform: translateY(-50%) rotate(45deg);
+            -ms-transform: translateY(-50%) rotate(45deg);
+                transform: translateY(-50%) rotate(45deg);
+    }
+    .dji-features__item--right::after {
+        right: -18px;
+        -webkit-transform: translateY(-50%) rotate(45deg);
+            -ms-transform: translateY(-50%) rotate(45deg);
+                transform: translateY(-50%) rotate(45deg);
+    }
+    .dji-features__item--left::before {
+        left: -20px;
+        -webkit-transform: translateY(-50%) rotate(45deg);
+            -ms-transform: translateY(-50%) rotate(45deg);
+                transform: translateY(-50%) rotate(45deg);
+    }
+    .dji-features__item--left::after {
+        left: -18px;
+        -webkit-transform: translateY(-50%) rotate(45deg);
+            -ms-transform: translateY(-50%) rotate(45deg);
+                transform: translateY(-50%) rotate(45deg);
+    }
+    .dji-features__item--top::before {
+        top: -20px;
+        left: 50%;
+        -webkit-transform: translateX(-50%) rotate(45deg);
+            -ms-transform: translateX(-50%) rotate(45deg);
+                transform: translateX(-50%) rotate(45deg);
+    }
+    .dji-features__item--top::after {
+        top: -18px;
+        left: 50%;
+        -webkit-transform: translateX(-50%) rotate(45deg);
+            -ms-transform: translateX(-50%) rotate(45deg);
+                transform: translateX(-50%) rotate(45deg);
+    }
+
+
+    .dji-no-cost {
+        width: 100%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        margin-top: 112px;
+    }
+    .dji-no-cost__wrap {
+        width: 1170px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .dji-no-cost__text {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 24px;
+        color: #333333;
+        margin: 0;
+    }
+    .dji-no-cost__text--bold {
+        font-weight: 700;
+    }
+    .dji-no-cost__title {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .dji-no-cost__left {}
+    .dji-no-cost__left-text {
+        color: #828282;
+        margin-top: 16px;
+    }
+    .dji-no-cost__left-list {
+        margin-top: 40px;
+        list-style: none;
+    }
+    .dji-no-cost__left-list-item {
+        margin-bottom: 24px !important;
+        position: relative;
+    }
+    .dji-no-cost__left-list-item:last-child {
+        margin-bottom: 0px !important;
+    }
+    .dji-no-cost__left-list-item::before,
+    .dji-no-cost__left-list-item::after {
+        content: '';
+        position: absolute;
+        background: #2A7AC0;
+        -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+                transform: rotate(45deg);
+    }
+    .dji-no-cost__left-list-item::before {
+        left: -20px;
+        opacity: 0.3;
+        width: 8px;
+        height: 8px;
+        top: 7px;
+    }
+    .dji-no-cost__left-list-item::after {
+        left: -18px;
+        width: 4px;
+        height: 4px;
+        top: 9px;
+    }
+    .dji-no-cost__right {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .dji-no-cost__img {
+        width: 586px;
+        height: 374px;
+    }
+
+
+.agrodom-offers {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+    position: relative;
+    margin-top: 100px;
+    z-index: 2;
+}
+.agrodom-offers__rectangle {
+    width: 100%;
+    height: 745px;
+    background: url('/files/img/dji/rectangle-min-2.png');
+    position: absolute;
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.agrodom-offers__wrap {
+    width: 1110px;
+}
+.agrodom-offers__header {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 140px;
+}
+.agrodom-offers__text {
+    margin: 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+}
+.agrodom-offers__title {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+}
+.agrodom-offers__center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.agrodom-offers__center-items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 56px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 100%;
+}
+.agrodom-offers__center-item {
+    padding: 30px 45px 30px 30px;
+    width: 350px;
+    background: #FFFFFF;
+}
+.agrodom-offers__center-item-text {
+    margin-top: 16px;
+}
+.agrodom-offers__center-item-svg {
+    width: 56px;
+    height: 56px;
+}
+.agrodom-offers__bottom {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 72px;
+}
+.agrodom-offers__bottom-top {}
+.agrodom-offers__bottom-top-text {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+.agrodom-offers__bottom-bot {
+    margin-top: 30px;
+}
+.agrodom-offers__button {
+    line-height: 19px;
+    text-align: center;
+    background: #FFEA30;
+    border-radius: 36px;
+    width: 220px;
+    height: 58px;
+    outline: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+}
+.agrodom-offers__button:before {
+    position: absolute;
+    content: '';
+    background: #DAC722;
+    border-radius: 36px;
+    width: 220px;
+    height: 58px;
+    z-index: -1;
+    top: 3px;
+}
+.agrodom-offers__button:hover,
+.agrodom-offers__button:focus {
+    background: #0A5067
+}
+.agrodom-offers__button:hover:before,
+.agrodom-offers__button:focus:before {
+    background: #072732;
+}
+
+
+    .dji-download {
+        margin-top: 50px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        width: 100%;
+    }
+    .dji-download__link {
+        width: 100%;
+        height: 100%;
+        background: #2A7AC0;
+        text-align: center;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 24px;
+        color: #FFFFFF;
+        text-decoration: none;
+        cursor: pointer;
+        padding: 162px 0 114px 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .dji-download__link:hover,
+    .dji-download__link:focus {
+        background: #0A5067;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    .dji-download__svg {
+        width: 40px;
+        height: 40px;
+        margin-right: 16px;
+    }
+
+    
+.svg-drone-1 {
+    background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB3aWR0aD0iNTYiIGhlaWdodD0iNTYiIHZpZXdCb3g9IjAgMCA1NiA1NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTI2LjI1IDQ0LjYyNUMyNi4yNSA0NS40OTAzIDI2LjUwNjYgNDYuMzM2MiAyNi45ODczIDQ3LjA1NTZDMjcuNDY4MSA0Ny43NzUxIDI4LjE1MTMgNDguMzM1OCAyOC45NTA4IDQ4LjY2N0MyOS43NTAyIDQ4Ljk5ODEgMzAuNjI5OSA0OS4wODQ4IDMxLjQ3ODUgNDguOTE1OUMzMi4zMjcyIDQ4Ljc0NzEgMzMuMTA2NyA0OC4zMzA1IDMzLjcxODYgNDcuNzE4NkMzNC4zMzA1IDQ3LjEwNjcgMzQuNzQ3MSA0Ni4zMjcyIDM0LjkxNTkgNDUuNDc4NUMzNS4wODQ4IDQ0LjYyOTkgMzQuOTk4MSA0My43NTAyIDM0LjY2NyA0Mi45NTA4QzM0LjMzNTggNDIuMTUxMyAzMy43NzUxIDQxLjQ2ODEgMzMuMDU1NiA0MC45ODczQzMyLjMzNjIgNDAuNTA2NiAzMS40OTAzIDQwLjI1IDMwLjYyNSA0MC4yNUMyOS40NjUxIDQwLjI1MTQgMjguMzUzMSA0MC43MTI4IDI3LjUzMjkgNDEuNTMyOUMyNi43MTI4IDQyLjM1MzEgMjYuMjUxNCA0My40NjUxIDI2LjI1IDQ0LjYyNVpNMzMuMjUgNDQuNjI1QzMzLjI1IDQ1LjE0NDIgMzMuMDk2MSA0NS42NTE3IDMyLjgwNzYgNDYuMDgzNEMzMi41MTkyIDQ2LjUxNTEgMzIuMTA5MiA0Ni44NTE1IDMxLjYyOTUgNDcuMDUwMkMzMS4xNDk5IDQ3LjI0ODkgMzAuNjIyMSA0Ny4zMDA5IDMwLjExMjkgNDcuMTk5NkMyOS42MDM3IDQ3LjA5ODMgMjkuMTM2IDQ2Ljg0ODMgMjguNzY4OCA0Ni40ODEyQzI4LjQwMTcgNDYuMTE0IDI4LjE1MTcgNDUuNjQ2MyAyOC4wNTA0IDQ1LjEzNzFDMjcuOTQ5MiA0NC42Mjc5IDI4LjAwMTEgNDQuMTAwMSAyOC4xOTk4IDQzLjYyMDVDMjguMzk4NSA0My4xNDA4IDI4LjczNSA0Mi43MzA4IDI5LjE2NjYgNDIuNDQyNEMyOS41OTgzIDQyLjE1NCAzMC4xMDU4IDQyIDMwLjYyNSA0MkMzMS4zMjEyIDQyIDMxLjk4ODkgNDIuMjc2NiAzMi40ODEyIDQyLjc2ODhDMzIuOTczNCA0My4yNjExIDMzLjI1IDQzLjkyODggMzMuMjUgNDQuNjI1WiIgZmlsbD0iIzJBN0FDMCIvPgo8cGF0aCBkPSJNNTQuMjUgMTkuMjVWMTcuNUg0OC4xMjVWMTYuNjI1SDQ2LjM3NVYxNy41SDQwLjI1VjE5LjI1SDQ2LjM3NVYyMUg0NC42MjVDNDQuMzkyOSAyMSA0NC4xNzA0IDIxLjA5MjIgNDQuMDA2MyAyMS4yNTYzQzQzLjg0MjIgMjEuNDIwNCA0My43NSAyMS42NDI5IDQzLjc1IDIxLjg3NVYyMy45NEw0MC44OTc1IDIzLjY3NzVMNDAuMjA2MiAyMS41OTVDNDAuMTQ2IDIxLjQyMjIgNDAuMDMzNyAyMS4yNzIzIDM5Ljg4NDkgMjEuMTY1OEMzOS43MzYxIDIxLjA1OTIgMzkuNTU4IDIxLjAwMTMgMzkuMzc1IDIxSDI2LjI1VjYuMTI1QzI2LjI0NzkgNS40Mjk0NSAyNS45NzA3IDQuNzYyOTcgMjUuNDc4OSA0LjI3MTE0QzI0Ljk4NyAzLjc3OTMxIDI0LjMyMDYgMy41MDIwOCAyMy42MjUgMy41SDcuODc1QzcuMTc5NDUgMy41MDIwOCA2LjUxMjk3IDMuNzc5MzEgNi4wMjExNCA0LjI3MTE0QzUuNTI5MzEgNC43NjI5NyA1LjI1MjA4IDUuNDI5NDUgNS4yNSA2LjEyNVYxMi45NTg4TDEuOTMzNzUgMjEuMjM2MkMxLjgxMjMyIDIxLjU0NTcgMS43NDk5OSAyMS44NzUxIDEuNzUgMjIuMjA3NVYzMS4yMTEyQzEuNzUwNSAzMi4xNTc4IDIuMDU3NDggMzMuMDc4NyAyLjYyNSAzMy44MzYyTDMuMjAyNSAzNC42MDYyQzMuNTYyODMgMzUuMDg4MSAzLjgyMDIyIDM1LjYzODkgMy45NTg3MSAzNi4yMjQ1QzQuMDk3MTkgMzYuODEgNC4xMTM4IDM3LjQxNzggNC4wMDc1IDM4LjAxTDIuNjI1IDUyLjQxMjVDMi42MTQ4MyA1Mi41MzQ0IDIuNjI5NzcgNTIuNjU3MSAyLjY2ODkgNTIuNzczQzIuNzA4MDMgNTIuODg4OCAyLjc3MDUyIDUyLjk5NTUgMi44NTI1IDUzLjA4NjNDMi45MzQzMSA1My4xNzY5IDMuMDM0MTggNTMuMjQ5NCAzLjE0NTcgNTMuMjk5MUMzLjI1NzIxIDUzLjM0ODkgMy4zNzc5IDUzLjM3NDcgMy41IDUzLjM3NUgxMy4xMjVDMTMuMjQ3MSA1My4zNzQ3IDEzLjM2NzggNTMuMzQ4OSAxMy40NzkzIDUzLjI5OTFDMTMuNTkwOCA1My4yNDk0IDEzLjY5MDcgNTMuMTc2OSAxMy43NzI1IDUzLjA4NjNDMTMuODU0NSA1Mi45OTQgMTMuOTE2MyA1Mi44ODU3IDEzLjk1NCA1Mi43NjgxQzEzLjk5MTcgNTIuNjUwNiAxNC4wMDQ0IDUyLjUyNjUgMTMuOTkxMyA1Mi40MDM3TDEyLjM2MzggMzcuMjkyNUMxMi4zMjI2IDM3LjA2NzggMTIuMzY5NiAzNi44MzU5IDEyLjQ5NSAzNi42NDVMMTMuMDExMiAzNS44NzVIMjMuNjI1QzIzLjk5MjEgMzUuODczOCAyNC4zNTQ4IDM1Ljc5NTIgMjQuNjg5NSAzNS42NDQ1QzI1LjAyNDIgMzUuNDkzNyAyNS4zMjM0IDM1LjI3NDEgMjUuNTY3NSAzNUgyOFYzNy42MjVIMjMuNjI1QzIyLjkyOTQgMzcuNjI3MSAyMi4yNjMgMzcuOTA0MyAyMS43NzExIDM4LjM5NjFDMjEuMjc5MyAzOC44ODggMjEuMDAyMSAzOS41NTQ0IDIxIDQwLjI1VjQ5QzIxLjAwMjEgNDkuNjk1NiAyMS4yNzkzIDUwLjM2MiAyMS43NzExIDUwLjg1MzlDMjIuMjYzIDUxLjM0NTcgMjIuOTI5NCA1MS42MjI5IDIzLjYyNSA1MS42MjVIMzcuNjI1QzM4LjMyMDYgNTEuNjIyOSAzOC45ODcgNTEuMzQ1NyAzOS40Nzg5IDUwLjg1MzlDMzkuOTcwNyA1MC4zNjIgNDAuMjQ3OSA0OS42OTU2IDQwLjI1IDQ5VjQwLjI1QzQwLjI0NzkgMzkuNTU0NCAzOS45NzA3IDM4Ljg4OCAzOS40Nzg5IDM4LjM5NjFDMzguOTg3IDM3LjkwNDMgMzguMzIwNiAzNy42MjcxIDM3LjYyNSAzNy42MjVIMzMuMjVWMzVIMzkuMzc1QzM5LjU3MDQgMzQuOTk5OCAzOS43NjAyIDM0LjkzNDMgMzkuOTE0IDM0LjgxMzhDNDAuMDY3OCAzNC42OTMyIDQwLjE3NjkgMzQuNTI0NyA0MC4yMjM4IDM0LjMzNUw0MC45NSAzMS40Mzg4TDQzLjc1IDMxLjE4NVYzMS41QzQzLjc1IDMyLjQyODMgNDQuMTE4OCAzMy4zMTg1IDQ0Ljc3NTEgMzMuOTc0OUM0NS40MzE1IDM0LjYzMTMgNDYuMzIxNyAzNSA0Ny4yNSAzNUM0OC4xNzgzIDM1IDQ5LjA2ODUgMzQuNjMxMyA0OS43MjQ5IDMzLjk3NDlDNTAuMzgxMiAzMy4zMTg1IDUwLjc1IDMyLjQyODMgNTAuNzUgMzEuNVYyMS44NzVDNTAuNzUgMjEuNjQyOSA1MC42NTc4IDIxLjQyMDQgNTAuNDkzNyAyMS4yNTYzQzUwLjMyOTYgMjEuMDkyMiA1MC4xMDcxIDIxIDQ5Ljg3NSAyMUg0OC4xMjVWMTkuMjVINTQuMjVaTTEwLjc1MzcgMjkuNDk2M0wxMS4yMjYyIDI5Ljk2QzExLjU1MTIgMzAuMjg1MyAxMS44MDg4IDMwLjY3MTQgMTEuOTg0NSAzMS4wOTYzQzEyLjE2MDEgMzEuNTIxMiAxMi4yNTA0IDMxLjk3NjUgMTIuMjUgMzIuNDM2MlYzMi44MDM4QzEyLjI1MSAzMy40OTUgMTIuMDQ3IDM0LjE3MSAxMS42NjM3IDM0Ljc0NjNMMTEuMDQyNSAzNS42NzM4QzEwLjY2ODEgMzYuMjE3OCAxMC41MjA2IDM2Ljg4NjQgMTAuNjMxMiAzNy41Mzc1TDEyLjE1MzggNTEuNjI1SDQuNDYyNUw1Ljc0IDM4LjIzNzVDNS44NzY2NiAzNy40MjA4IDUuODQ2MzIgMzYuNTg0OSA1LjY1MDgxIDM1Ljc4MDNDNS40NTUzIDM0Ljk3NTcgNS4wOTg2OCAzNC4yMTkxIDQuNjAyNSAzMy41NTYyTDQuMDI1IDMyLjc4NjNDMy42ODUyMyAzMi4zMzEzIDMuNTAxMTMgMzEuNzc5IDMuNSAzMS4yMTEyVjIyLjIwNzVDMy40OTkwOSAyMi4wOTY2IDMuNTE5OSAyMS45ODY2IDMuNTYxMjUgMjEuODgzOEw1LjI1IDE3LjY2NjNWMjMuMjY2M0M1LjI1MDE1IDIzLjQ5NTggNS4yOTU4NiAyMy43MjMxIDUuMzg0NDggMjMuOTM0OUM1LjQ3MzEgMjQuMTQ2NiA1LjYwMjg2IDI0LjMzODcgNS43NjYyNSAyNC41TDYuNzcyNSAyNS41MTVDNy4wNDkzIDI1Ljc4ODYgNy40MDg5NiAyNS45NjI4IDcuNzk1MjUgMjYuMDEwMkM4LjE4MTUzIDI2LjA1NzcgOC41NzI2NyAyNS45NzU5IDguOTA3NSAyNS43Nzc1TDExLjYzNzUgMjQuMTMyNUMxMS43NzQzIDI0LjA1MzYgMTEuOTMzMiAyNC4wMjIxIDEyLjA4OTggMjQuMDQyN0MxMi4yNDYzIDI0LjA2MzMgMTIuMzkxNyAyNC4xMzUgMTIuNTAzMyAyNC4yNDY3QzEyLjYxNSAyNC4zNTgzIDEyLjY4NjcgMjQuNTAzNyAxMi43MDczIDI0LjY2MDJDMTIuNzI3OSAyNC44MTY4IDEyLjY5NjQgMjQuOTc1NyAxMi42MTc1IDI1LjExMjVMMTAuNjIyNSAyOC40Mjg4QzEwLjUyNDUgMjguNTk2NSAxMC40ODQyIDI4Ljc5MTggMTAuNTA3OSAyOC45ODQ3QzEwLjUzMTYgMjkuMTc3NSAxMC42MTggMjkuMzU3MiAxMC43NTM3IDI5LjQ5NjNaTTEyLjYgMjguODc1QzEyLjU1NjIgMjguODMxMiAxMi41MjEyIDI4Ljc3ODcgMTIuNDc3NSAyOC43MzVMMTQuMTEzNyAyNi4wMTM4QzE0LjM5NzUgMjUuNTQzMSAxNC41MTU1IDI0Ljk5MDkgMTQuNDQ4OSAyNC40NDU0QzE0LjM4MjMgMjMuODk5OCAxNC4xMzQ5IDIzLjM5MjMgMTMuNzQ2MyAyMy4wMDM3QzEzLjM1NzcgMjIuNjE1MSAxMi44NTAyIDIyLjM2NzcgMTIuMzA0NiAyMi4zMDExQzExLjc1OTEgMjIuMjM0NSAxMS4yMDY5IDIyLjM1MjUgMTAuNzM2MiAyMi42MzYzTDEwLjUgMjIuNzc2M1Y4Ljc1SDIxVjI4Ljg3NUgxMi42Wk0yNC41IDMzLjI1QzI0LjUgMzMuNDgyMSAyNC40MDc4IDMzLjcwNDYgMjQuMjQzNyAzMy44Njg3QzI0LjA3OTYgMzQuMDMyOCAyMy44NTcxIDM0LjEyNSAyMy42MjUgMzQuMTI1SDEzLjgxNjJDMTMuOTM0MiAzMy42OTQ0IDEzLjk5NiAzMy4yNTAyIDE0IDMyLjgwMzhWMzIuNDM2MkMxMy45OTkyIDMxLjgxODIgMTMuODg5NiAzMS4yMDUxIDEzLjY3NjMgMzAuNjI1SDIxLjg3NUMyMi4xMDcxIDMwLjYyNSAyMi4zMjk2IDMwLjUzMjggMjIuNDkzNyAzMC4zNjg3QzIyLjY1NzggMzAuMjA0NiAyMi43NSAyOS45ODIxIDIyLjc1IDI5Ljc1VjcuODc1QzIyLjc1IDcuNjQyOTQgMjIuNjU3OCA3LjQyMDM4IDIyLjQ5MzcgNy4yNTYyOEMyMi4zMjk2IDcuMDkyMTkgMjIuMTA3MSA3IDIxLjg3NSA3SDkuNjI1QzkuMzkyOTQgNyA5LjE3MDM4IDcuMDkyMTkgOS4wMDYyOCA3LjI1NjI4QzguODQyMTkgNy40MjAzOCA4Ljc1IDcuNjQyOTQgOC43NSA3Ljg3NVYyMy44MjYzTDguMDA2MjUgMjQuMjcyNUw3IDIzLjI2NjNWNi4xMjVDNyA1Ljg5Mjk0IDcuMDkyMTkgNS42NzAzOCA3LjI1NjI4IDUuNTA2MjhDNy40MjAzOCA1LjM0MjE5IDcuNjQyOTQgNS4yNSA3Ljg3NSA1LjI1SDIzLjYyNUMyMy44NTcxIDUuMjUgMjQuMDc5NiA1LjM0MjE5IDI0LjI0MzcgNS41MDYyOEMyNC40MDc4IDUuNjcwMzggMjQuNSA1Ljg5Mjk0IDI0LjUgNi4xMjVWMzMuMjVaTTM3LjYyNSAzOS4zNzVDMzcuODU3MSAzOS4zNzUgMzguMDc5NiAzOS40NjcyIDM4LjI0MzcgMzkuNjMxM0MzOC40MDc4IDM5Ljc5NTQgMzguNSA0MC4wMTc5IDM4LjUgNDAuMjVWNDlDMzguNSA0OS4yMzIxIDM4LjQwNzggNDkuNDU0NiAzOC4yNDM3IDQ5LjYxODdDMzguMDc5NiA0OS43ODI4IDM3Ljg1NzEgNDkuODc1IDM3LjYyNSA0OS44NzVIMjMuNjI1QzIzLjM5MjkgNDkuODc1IDIzLjE3MDQgNDkuNzgyOCAyMy4wMDYzIDQ5LjYxODdDMjIuODQyMiA0OS40NTQ2IDIyLjc1IDQ5LjIzMjEgMjIuNzUgNDlWNDAuMjVDMjIuNzUgNDAuMDE3OSAyMi44NDIyIDM5Ljc5NTQgMjMuMDA2MyAzOS42MzEzQzIzLjE3MDQgMzkuNDY3MiAyMy4zOTI5IDM5LjM3NSAyMy42MjUgMzkuMzc1SDM3LjYyNVpNMjkuNzUgMzcuNjI1VjM1SDMxLjVWMzcuNjI1SDI5Ljc1Wk00My43NSAyOS40MzVMNDAuMTcxMiAyOS43NUMzOS45ODk2IDI5Ljc2NjcgMzkuODE3NyAyOS44Mzk4IDM5LjY3OTcgMjkuOTU5MUMzOS41NDE2IDMwLjA3ODMgMzkuNDQ0MyAzMC4yMzc3IDM5LjQwMTIgMzAuNDE1TDM4LjY5MjUgMzMuMjVIMjYuMjVWMjIuNzVIMzguNzQ1TDM5LjQxODggMjQuNzhDMzkuNDc0NSAyNC45NDA1IDM5LjU3NSAyNS4wODE4IDM5LjcwODMgMjUuMTg3MkMzOS44NDE2IDI1LjI5MjYgNDAuMDAyMiAyNS4zNTc4IDQwLjE3MTIgMjUuMzc1TDQzLjc1IDI1LjY5VjI5LjQzNVpNNDkgMjIuNzVWMzEuNUM0OSAzMS45NjQxIDQ4LjgxNTYgMzIuNDA5MyA0OC40ODc0IDMyLjczNzRDNDguMTU5MiAzMy4wNjU2IDQ3LjcxNDEgMzMuMjUgNDcuMjUgMzMuMjVDNDYuNzg1OSAzMy4yNSA0Ni4zNDA4IDMzLjA2NTYgNDYuMDEyNiAzMi43Mzc0QzQ1LjY4NDQgMzIuNDA5MyA0NS41IDMxLjk2NDEgNDUuNSAzMS41VjIyLjc1SDQ5WiIgZmlsbD0iIzJBN0FDMCIvPgo8cGF0aCBkPSJNMzYuMzg3NyAxMi43NjI5QzM2LjE0MyAxMy4wMDc2IDM1Ljk3NjIgMTMuMzE5NCAzNS45MDg3IDEzLjY1ODlDMzUuODQxMSAxMy45OTg0IDM1Ljg3NTcgMTQuMzUwMyAzNi4wMDgyIDE0LjY3MDFDMzYuMTQwNiAxNC45ODk5IDM2LjM2NDkgMTUuMjYzMiAzNi42NTI3IDE1LjQ1NTVDMzYuOTQwNSAxNS42NDc4IDM3LjI3ODkgMTUuNzUwNSAzNy42MjUgMTUuNzUwNUMzNy45NzExIDE1Ljc1MDUgMzguMzA5NSAxNS42NDc4IDM4LjU5NzMgMTUuNDU1NUMzOC44ODUxIDE1LjI2MzIgMzkuMTA5NCAxNC45ODk5IDM5LjI0MTggMTQuNjcwMUMzOS4zNzQzIDE0LjM1MDMgMzkuNDA4OSAxMy45OTg0IDM5LjM0MTMgMTMuNjU4OUMzOS4yNzM4IDEzLjMxOTQgMzkuMTA3IDEzLjAwNzYgMzguODYyMiAxMi43NjI5QzM4LjUzNDEgMTIuNDM0OCAzOC4wODkgMTIuMjUwNSAzNy42MjUgMTIuMjUwNUMzNy4xNjEgMTIuMjUwNSAzNi43MTU5IDEyLjQzNDggMzYuMzg3NyAxMi43NjI5WiIgZmlsbD0iIzJBN0FDMCIvPgo8cGF0aCBkPSJNNDEuMzM3OCAxMC4yODg1QzQwLjg1MDMgOS44MDA4OSA0MC4yNzE1IDkuNDE0MSAzOS42MzQ1IDkuMTUwMjFDMzguOTk3NSA4Ljg4NjMxIDM4LjMxNDcgOC43NTA0OSAzNy42MjUyIDguNzUwNDlDMzYuOTM1NyA4Ljc1MDQ5IDM2LjI1MjkgOC44ODYzMSAzNS42MTU5IDkuMTUwMjFDMzQuOTc4OSA5LjQxNDEgMzQuNDAwMSA5LjgwMDg5IDMzLjkxMjYgMTAuMjg4NUwzNS4xNDk4IDExLjUyNTdDMzUuODE3IDEwLjg4OTcgMzYuNzAzNCAxMC41MzQ5IDM3LjYyNTIgMTAuNTM0OUMzOC41NDcgMTAuNTM0OSAzOS40MzM0IDEwLjg4OTcgNDAuMTAwNiAxMS41MjU3TDQxLjMzNzggMTAuMjg4NVoiIGZpbGw9IiMyQTdBQzAiLz4KPHBhdGggZD0iTTQzLjgxMjIgNy44MTMxN0M0Mi4xNzAxIDYuMTc0NjIgMzkuOTQ1IDUuMjU0MzkgMzcuNjI1MSA1LjI1NDM5QzM1LjMwNTMgNS4yNTQzOSAzMy4wODAyIDYuMTc0NjIgMzEuNDM4IDcuODEzMTdMMzIuNjc1MiA5LjA1MDQyQzMzLjk4OTEgNy43Mzk3MyAzNS43NjkyIDcuMDAzNjYgMzcuNjI1MSA3LjAwMzY2QzM5LjQ4MSA3LjAwMzY2IDQxLjI2MTEgNy43Mzk3MyA0Mi41NzUgOS4wNTA0Mkw0My44MTIyIDcuODEzMTdaIiBmaWxsPSIjMkE3QUMwIi8+CjxwYXRoIGQ9Ik0zNy42MjQ5IDMuNDk5OTFDMzkuMDA0NCAzLjQ5NTk5IDQwLjM3MDkgMy43NjU4MiA0MS42NDUzIDQuMjkzNzZDNDIuOTE5NyA0LjgyMTcxIDQ0LjA3NjcgNS41OTcyNyA0NS4wNDkzIDYuNTc1NTNMNDYuMjg3NCA1LjMzNzQxQzQ1LjE0OTkgNC4xOTk3NiA0My43OTk0IDMuMjk3MzIgNDIuMzEzMSAyLjY4MTYyQzQwLjgyNjcgMi4wNjU5MiAzOS4yMzM3IDEuNzQ5MDIgMzcuNjI0OSAxLjc0OTAyQzM2LjAxNjEgMS43NDkwMiAzNC40MjMxIDIuMDY1OTIgMzIuOTM2NyAyLjY4MTYyQzMxLjQ1MDQgMy4yOTczMiAzMC4wOTk5IDQuMTk5NzYgMjguOTYyNCA1LjMzNzQxTDMwLjE5OTcgNi41NzQ2NkMzMS4xNzI0IDUuNTk2NDUgMzIuMzI5NiA0LjgyMDk4IDMzLjYwNDIgNC4yOTMxOUMzNC44Nzg3IDMuNzY1MzkgMzYuMjQ1NCAzLjQ5NTc2IDM3LjYyNDkgMy40OTk5MVoiIGZpbGw9IiMyQTdBQzAiLz4KPHBhdGggZD0iTTQ0Ljc3NDkgMzYuNTk5Nkw0My41Mzc2IDM3LjgzNjlDNDQuMDI1MSAzOC4zMjQ1IDQ0LjYwMzkgMzguNzExMyA0NS4yNDA5IDM4Ljk3NTJDNDUuODc3OSAzOS4yMzkgNDYuNTYwNyAzOS4zNzQ5IDQ3LjI1MDIgMzkuMzc0OUM0Ny45Mzk3IDM5LjM3NDkgNDguNjIyNSAzOS4yMzkgNDkuMjU5NSAzOC45NzUyQzQ5Ljg5NjUgMzguNzExMyA1MC40NzUzIDM4LjMyNDUgNTAuOTYyOSAzNy44MzY5TDQ5LjcyNTYgMzYuNTk5NkM0OS4wNTg0IDM3LjIzNTYgNDguMTcyIDM3LjU5MDQgNDcuMjUwMiAzNy41OTA0QzQ2LjMyODQgMzcuNTkwNCA0NS40NDIgMzcuMjM1NiA0NC43NzQ5IDM2LjU5OTZaIiBmaWxsPSIjMkE3QUMwIi8+CjxwYXRoIGQ9Ik00NC43NzQ5IDQwLjA5OTZMNDMuNTM3NiA0MS4zMzY5QzQ0LjAyNTEgNDEuODI0NSA0NC42MDM5IDQyLjIxMTMgNDUuMjQwOSA0Mi40NzUyQzQ1Ljg3NzkgNDIuNzM5IDQ2LjU2MDcgNDIuODc0OSA0Ny4yNTAyIDQyLjg3NDlDNDcuOTM5NyA0Mi44NzQ5IDQ4LjYyMjUgNDIuNzM5IDQ5LjI1OTUgNDIuNDc1MkM0OS44OTY1IDQyLjIxMTMgNTAuNDc1MyA0MS44MjQ1IDUwLjk2MjkgNDEuMzM2OUw0OS43MjU2IDQwLjA5OTZDNDkuMDU4NCA0MC43MzU2IDQ4LjE3MiA0MS4wOTA0IDQ3LjI1MDIgNDEuMDkwNEM0Ni4zMjg0IDQxLjA5MDQgNDUuNDQyIDQwLjczNTYgNDQuNzc0OSA0MC4wOTk2WiIgZmlsbD0iIzJBN0FDMCIvPgo8cGF0aCBkPSJNMTUuNzUgMTIuMjVDMTUuMDU3OCAxMi4yNSAxNC4zODExIDEyLjQ1NTMgMTMuODA1NSAxMi44Mzk5QzEzLjIyOTkgMTMuMjI0NCAxMi43ODEzIDEzLjc3MTEgMTIuNTE2NCAxNC40MTA2QzEyLjI1MTUgMTUuMDUwMSAxMi4xODIyIDE1Ljc1MzkgMTIuMzE3MyAxNi40MzI4QzEyLjQ1MjMgMTcuMTExNyAxMi43ODU2IDE3LjczNTQgMTMuMjc1MSAxOC4yMjQ5QzEzLjc2NDYgMTguNzE0NCAxNC4zODgzIDE5LjA0NzcgMTUuMDY3MiAxOS4xODI3QzE1Ljc0NjEgMTkuMzE3OCAxNi40NDk5IDE5LjI0ODUgMTcuMDg5NCAxOC45ODM2QzE3LjcyODkgMTguNzE4NyAxOC4yNzU2IDE4LjI3MDEgMTguNjYwMSAxNy42OTQ1QzE5LjA0NDcgMTcuMTE4OSAxOS4yNSAxNi40NDIyIDE5LjI1IDE1Ljc1QzE5LjI1IDE0LjgyMTcgMTguODgxMyAxMy45MzE1IDE4LjIyNDkgMTMuMjc1MUMxNy41Njg1IDEyLjYxODcgMTYuNjc4MyAxMi4yNSAxNS43NSAxMi4yNVpNMTUuNzUgMTcuNUMxNS40MDM5IDE3LjUgMTUuMDY1NSAxNy4zOTc0IDE0Ljc3NzggMTcuMjA1MUMxNC40OSAxNy4wMTI4IDE0LjI2NTcgMTYuNzM5NSAxNC4xMzMyIDE2LjQxOTdDMTQuMDAwOCAxNi4wOTk5IDEzLjk2NjEgMTUuNzQ4MSAxNC4wMzM2IDE1LjQwODZDMTQuMTAxMiAxNS4wNjkxIDE0LjI2NzggMTQuNzU3MyAxNC41MTI2IDE0LjUxMjZDMTQuNzU3MyAxNC4yNjc4IDE1LjA2OTEgMTQuMTAxMSAxNS40MDg2IDE0LjAzMzZDMTUuNzQ4MSAxMy45NjYxIDE2LjA5OTkgMTQuMDAwOCAxNi40MTk3IDE0LjEzMzJDMTYuNzM5NSAxNC4yNjU3IDE3LjAxMjggMTQuNDkgMTcuMjA1MSAxNC43Nzc4QzE3LjM5NzQgMTUuMDY1NSAxNy41IDE1LjQwMzkgMTcuNSAxNS43NUMxNy41IDE2LjIxNDEgMTcuMzE1NiAxNi42NTkyIDE2Ljk4NzQgMTYuOTg3NEMxNi42NTkyIDE3LjMxNTYgMTYuMjE0MSAxNy41IDE1Ljc1IDE3LjVaIiBmaWxsPSIjMkE3QUMwIi8+Cjwvc3ZnPgo=');
+    background-repeat: no-repeat;
+}
+.svg-drone-2 {
+    background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB3aWR0aD0iNTYiIGhlaWdodD0iNTYiIHZpZXdCb3g9IjAgMCA1NiA1NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTUyLjQ3MjIgMzguNDg5M0g1Mi40ODE4QzUyLjk2NDggMzguNDg5MyA1My4zNTE2IDM4Ljg4MDQgNTMuMzUxNiAzOS4zNjQzQzUzLjM1MTYgMzkuODQ4MSA1Mi45NTYxIDQwLjIzOTMgNTIuNDcyMiA0MC4yMzkzQzUxLjk4OTIgNDAuMjM5MyA1MS41OTcyIDM5Ljg0ODEgNTEuNTk3MiAzOS4zNjQzQzUxLjU5NzIgMzguODgwNCA1MS45ODkyIDM4LjQ4OTMgNTIuNDcyMiAzOC40ODkzWiIgZmlsbD0iIzJBN0FDMCIvPgo8cGF0aCBkPSJNNTIuNDk4NSAzNy42MTQzQzUyLjAxNDcgMzcuNjE0MyA1MS42MjM1IDM3LjIyMzEgNTEuNjIzNSAzNi43MzkzVjM0LjExNDNDNTEuNjIzNSAzMy42MzA0IDUyLjAxNDcgMzMuMjM5MyA1Mi40OTg1IDMzLjIzOTNDNTIuOTgyNCAzMy4yMzkzIDUzLjM3MzUgMzMuNjMwNCA1My4zNzM1IDM0LjExNDNWMzYuNzM5M0M1My4zNzM1IDM3LjIyMzEgNTIuOTgyNCAzNy42MTQzIDUyLjQ5ODUgMzcuNjE0M1oiIGZpbGw9IiMyQTdBQzAiLz4KPHBhdGggZD0iTTU1Ljk5NTkgMjYuMjI4OUM1NS45OTU5IDI2LjIzMjQgNTUuOTk4NSAyNi4yMzU5IDU1Ljk5ODUgMjYuMjQwMlY1MC43NDAyQzU1Ljk5ODUgNTMuNjM1NiA1My42NDM5IDU1Ljk5MDIgNTAuNzQ4NSA1NS45OTAySDYuMTI3MDNDMi43NTA0MSA1NS45OTAyIDAuMDAyMDMzMjMgNTMuMjQxOSAwLjAwMjAzMzIzIDQ5Ljg2NTJWNDYuMzY1MlYzMC42MTUyVjI3LjExNTJDMC4wMDIwMzMyMyAyMy43Mzg2IDIuNzUwNDEgMjAuOTkwMiA2LjEyNzAzIDIwLjk5MDJIOC43NTAyOEg0OS44NzM1SDUwLjc0NjhDNTMuNjM4NyAyMC45ODk0IDU1Ljk4OTggMjMuMzM4NyA1NS45OTU5IDI2LjIyODlaTTYuMTI3MDMgNTQuMjM5NEg1MC43NDg1QzUyLjUyNzQgNTQuMjM5NCA1My45ODM0IDUyLjkwMjQgNTQuMjAzOSA1MS4xODIxQzUzLjI3OSA1MS45OTMyIDUyLjA3MTUgNTIuNDg5NCA1MC43NDg1IDUyLjQ4OTRINDkuODczNUg4Ljc1MDI4SDYuMTI3MDNDNC40NTkyOCA1Mi40ODk0IDIuOTQ1NTMgNTEuODE2NSAxLjgzOTUzIDUwLjczMDZDMi4yNDI5MSA1Mi43MyA0LjAxMTI4IDU0LjIzOTQgNi4xMjcwMyA1NC4yMzk0Wk0xLjc1MjAzIDI3LjExNDRWMzAuNjE0NFY0Ni4zNjQ0QzEuNzUyMDMgNDguNzc2NyAzLjcxNDY2IDUwLjczOTQgNi4xMjcwMyA1MC43Mzk0SDcuODczNTRWMzYuNzM5NFYyMi43Mzk0SDYuMTI3MDNDMy43MTQ2NiAyMi43Mzk0IDEuNzUyMDMgMjQuNzAyIDEuNzUyMDMgMjcuMTE0NFpNOS42MjUyOCA1MC43Mzk0SDQ4Ljk5NjhWMjIuNzM5NEg5LjYyNTI4VjUwLjczOTRaTTUwLjc0ODUgMjIuNzM5NFY1MC43Mzk0QzUyLjY3ODggNTAuNzM5NCA1NC4yNDg1IDQ5LjE2OTYgNTQuMjQ4NSA0Ny4yMzk0VjI2LjI0ODFDNTQuMjQ4NSAyNi4yNDQ2IDU0LjI0NjggMjYuMjQyOSA1NC4yNDY4IDI2LjIzOTRDNTQuMjQ2OCAyNC4zMSA1Mi42Nzc5IDIyLjc0MDIgNTAuNzQ4NSAyMi43Mzk0WiIgZmlsbD0iIzJBN0FDMCIvPgo8cGF0aCBkPSJNNS4yNDg1NCAzOS4zNjQzQzMuODAxMjkgMzkuMzY0MyAyLjYyMzU0IDM4LjE4NjUgMi42MjM1NCAzNi43MzkzQzIuNjIzNTQgMzUuMjkyIDMuODAxMjkgMzQuMTE0MyA1LjI0ODU0IDM0LjExNDNDNi42OTU3OSAzNC4xMTQzIDcuODczNTQgMzUuMjkyIDcuODczNTQgMzYuNzM5M0M3Ljg3MzU0IDM4LjE4NjUgNi42OTU3OSAzOS4zNjQzIDUuMjQ4NTQgMzkuMzY0M1pNNS4yNDg1NCAzNS44NjQzQzQuNzY1NTQgMzUuODY0MyA0LjM3MzU0IDM2LjI1NjMgNC4zNzM1NCAzNi43MzkzQzQuMzczNTQgMzcuMjIyMyA0Ljc2NTU0IDM3LjYxNDMgNS4yNDg1NCAzNy42MTQzQzUuNzMxNTQgMzcuNjE0MyA2LjEyMzU0IDM3LjIyMjMgNi4xMjM1NCAzNi43MzkzQzYuMTIzNTQgMzYuMjU2MyA1LjczMTU0IDM1Ljg2NDMgNS4yNDg1NCAzNS44NjQzWiIgZmlsbD0iIzJBN0FDMCIvPgo8cGF0aCBkPSJNMjMuNjI1IDQ3LjIzNEgyMC4xMjVDMTkuNjQxMSA0Ny4yMzQgMTkuMjUgNDYuODQyOSAxOS4yNSA0Ni4zNTlWNDIuODY0M0MxOS4yNSA0Mi4zODA0IDE5LjY0MTEgNDEuOTg5MyAyMC4xMjUgNDEuOTg5M0MyMC42MDg5IDQxLjk4OTMgMjEgNDIuMzgwNCAyMSA0Mi44NjQzVjQ1LjQ4NEgyMy42MjVDMjQuMTA4OSA0NS40ODQgMjQuNSA0NS44NzUxIDI0LjUgNDYuMzU5QzI0LjUgNDYuODQyOSAyNC4xMDg5IDQ3LjIzNCAyMy42MjUgNDcuMjM0WiIgZmlsbD0iIzJBN0FDMCIvPgo8cGF0aCBkPSJNMjMuNjI1IDI3Ljk4OTNIMjFWMzAuNjE0MkMyMSAzMS4wOTgxIDIwLjYwODkgMzEuNDg5MiAyMC4xMjUgMzEuNDg5MkMxOS42NDExIDMxLjQ4OTIgMTkuMjUgMzEuMDk4MSAxOS4yNSAzMC42MTQyVjI3LjExNDNDMTkuMjUgMjYuNjMwNCAxOS42NDExIDI2LjIzOTMgMjAuMTI1IDI2LjIzOTNIMjMuNjI1QzI0LjEwODkgMjYuMjM5MyAyNC41IDI2LjYzMDQgMjQuNSAyNy4xMTQzQzI0LjUgMjcuNTk4MSAyNC4xMDg5IDI3Ljk4OTMgMjMuNjI1IDI3Ljk4OTNaIiBmaWxsPSIjMkE3QUMwIi8+CjxwYXRoIGQ9Ik0zOS4zNzUgMzEuNDg5MkMzOC44OTExIDMxLjQ4OTIgMzguNSAzMS4wOTgxIDM4LjUgMzAuNjE0MlYyNy45ODkzSDM1Ljg3NUMzNS4zOTExIDI3Ljk4OTMgMzUgMjcuNTk4MSAzNSAyNy4xMTQzQzM1IDI2LjYzMDQgMzUuMzkxMSAyNi4yMzkzIDM1Ljg3NSAyNi4yMzkzSDM5LjM3NUMzOS44NTg5IDI2LjIzOTMgNDAuMjUgMjYuNjMwNCA0MC4yNSAyNy4xMTQzVjMwLjYxNDJDNDAuMjUgMzEuMDk4MSAzOS44NTg5IDMxLjQ4OTIgMzkuMzc1IDMxLjQ4OTJaIiBmaWxsPSIjMkE3QUMwIi8+CjxwYXRoIGQ9Ik0zOS4zNzUgNDcuMjM0SDM1Ljg3NUMzNS4zOTExIDQ3LjIzNCAzNSA0Ni44NDI5IDM1IDQ2LjM1OUMzNSA0NS44NzUxIDM1LjM5MTEgNDUuNDg0IDM1Ljg3NSA0NS40ODRIMzguNVY0Mi44NjQzQzM4LjUgNDIuMzgwNCAzOC44OTExIDQxLjk4OTMgMzkuMzc1IDQxLjk4OTNDMzkuODU4OSA0MS45ODkzIDQwLjI1IDQyLjM4MDQgNDAuMjUgNDIuODY0M1Y0Ni4zNTlDNDAuMjUgNDYuODQyOSAzOS44NTg5IDQ3LjIzNCAzOS4zNzUgNDcuMjM0WiIgZmlsbD0iIzJBN0FDMCIvPgo8cGF0aCBkPSJNMzIuMzc1IDM3LjYxNDNIMzAuNjI1VjM5LjM2NDNDMzAuNjI1IDM5Ljg0ODEgMzAuMjMzOSA0MC4yMzkzIDI5Ljc1IDQwLjIzOTNDMjkuMjY2MSA0MC4yMzkzIDI4Ljg3NSAzOS44NDgxIDI4Ljg3NSAzOS4zNjQzVjM3LjYxNDNIMjcuMTI1QzI2LjY0MTEgMzcuNjE0MyAyNi4yNSAzNy4yMjMxIDI2LjI1IDM2LjczOTNDMjYuMjUgMzYuMjU1NCAyNi42NDExIDM1Ljg2NDMgMjcuMTI1IDM1Ljg2NDNIMjguODc1VjM0LjExNDNDMjguODc1IDMzLjYzMDQgMjkuMjY2MSAzMy4yMzkzIDI5Ljc1IDMzLjIzOTNDMzAuMjMzOSAzMy4yMzkzIDMwLjYyNSAzMy42MzA0IDMwLjYyNSAzNC4xMTQzVjM1Ljg2NDNIMzIuMzc1QzMyLjg1ODkgMzUuODY0MyAzMy4yNSAzNi4yNTU0IDMzLjI1IDM2LjczOTNDMzMuMjUgMzcuMjIzMSAzMi44NTg5IDM3LjYxNDMgMzIuMzc1IDM3LjYxNDNaIiBmaWxsPSIjMkE3QUMwIi8+CjxwYXRoIGQ9Ik0xNCA0MS4xMTI1QzEyLjU1MjggNDEuMTEyNSAxMS4zNzUgMzkuOTM0OCAxMS4zNzUgMzguNDg3NVYzNC45ODkzQzExLjM3NSAzMy41NDIgMTIuNTUyOCAzMi4zNjQzIDE0IDMyLjM2NDNDMTUuNDQ3MyAzMi4zNjQzIDE2LjYyNSAzMy41NDIgMTYuNjI1IDM0Ljk4OTNWMzguNDg3NUMxNi42MjUgMzkuOTM1NiAxNS40NDczIDQxLjExMjUgMTQgNDEuMTEyNVpNMTQgMzkuMzYyNUMxNC40ODMgMzkuMzYyNSAxNC44NzUgMzguOTcwNSAxNC44NzUgMzguNDg3NVYzNy40NTI0QzE0LjYwMDMgMzcuNTUwNCAxNC4zMDg5IDM3LjYxNDMgMTQgMzcuNjE0M0MxMy42OTExIDM3LjYxNDMgMTMuMzk5NyAzNy41NTEzIDEzLjEyNSAzNy40NTI0VjM4LjQ4NzVDMTMuMTI1IDM4Ljk3MDUgMTMuNTE3IDM5LjM2MjUgMTQgMzkuMzYyNVpNMTQgMzQuMTE0M0MxMy41MTcgMzQuMTE0MyAxMy4xMjUgMzQuNTA2MyAxMy4xMjUgMzQuOTg5M0MxMy4xMjUgMzUuNDcyMyAxMy41MTcgMzUuODY0MyAxNCAzNS44NjQzQzE0LjQ4MyAzNS44NjQzIDE0Ljg3NSAzNS40NzIzIDE0Ljg3NSAzNC45ODkzQzE0Ljg3NSAzNC41MDYzIDE0LjQ4MyAzNC4xMTQzIDE0IDM0LjExNDNaIiBmaWxsPSIjMkE3QUMwIi8+CjxwYXRoIGQ9Ik00NC42MjUgNDEuMTEyNUM0My4xNzc4IDQxLjExMjUgNDIgMzkuOTM0OCA0MiAzOC40ODc1VjM0Ljk4OTNDNDIgMzMuNTQyIDQzLjE3NzggMzIuMzY0MyA0NC42MjUgMzIuMzY0M0M0Ni4wNzIzIDMyLjM2NDMgNDcuMjUgMzMuNTQyIDQ3LjI1IDM0Ljk4OTNWMzguNDg3NUM0Ny4yNSAzOS45MzU2IDQ2LjA3MjMgNDEuMTEyNSA0NC42MjUgNDEuMTEyNVpNNDQuNjI1IDM5LjM2MjVDNDUuMTA4IDM5LjM2MjUgNDUuNSAzOC45NzA1IDQ1LjUgMzguNDg3NVYzNy40NTI0QzQ1LjIyNTMgMzcuNTUwNCA0NC45MzM5IDM3LjYxNDMgNDQuNjI1IDM3LjYxNDNDNDQuMzE2MSAzNy42MTQzIDQ0LjAyNDcgMzcuNTUxMyA0My43NSAzNy40NTI0VjM4LjQ4NzVDNDMuNzUgMzguOTcwNSA0NC4xNDIgMzkuMzYyNSA0NC42MjUgMzkuMzYyNVpNNDQuNjI1IDM0LjExNDNDNDQuMTQyIDM0LjExNDMgNDMuNzUgMzQuNTA2MyA0My43NSAzNC45ODkzQzQzLjc1IDM1LjQ3MjMgNDQuMTQyIDM1Ljg2NDMgNDQuNjI1IDM1Ljg2NDNDNDUuMTA4IDM1Ljg2NDMgNDUuNSAzNS40NzIzIDQ1LjUgMzQuOTg5M0M0NS41IDM0LjUwNjMgNDUuMTA4IDM0LjExNDMgNDQuNjI1IDM0LjExNDNaIiBmaWxsPSIjMkE3QUMwIi8+CjxwYXRoIGQ9Ik0zOC40OTY4IDIuNjM1NzRDMzguMDEyOSAyLjYzNTc0IDM3LjYyMTggMi4yNDQ2MiAzNy42MjE4IDEuNzYwNzRDMzcuNjIxOCAxLjI3Njg3IDM4LjAxMjkgMC44ODU3NDIgMzguNDk2OCAwLjg4NTc0Mkg0NC42MjM1QzQ0LjYyMzUgMC40MDE4NjcgNDUuMDE0NyAwLjAxMDc0MjIgNDUuNDk4NSAwLjAxMDc0MjJDNDUuOTgyNCAwLjAxMDc0MjIgNDYuMzczNSAwLjQwMTg2NyA0Ni4zNzM1IDAuODg1NzQySDUyLjQ5ODVDNTIuOTgyNCAwLjg4NTc0MiA1My4zNzM1IDEuMjc2ODcgNTMuMzczNSAxLjc2MDc0QzUzLjM3MzUgMi4yNDQ2MiA1Mi45ODI0IDIuNjM1NzQgNTIuNDk4NSAyLjYzNTc0SDQ2LjM3MzVWNS4yNjI0OUg0OC4xMjQ0QzQ4LjYwODMgNS4yNjI0OSA0OC45OTk0IDUuNjUzNjIgNDguOTk5NCA2LjEzNzQ5VjEyLjI2MjVDNDguOTk5NCAxMi43NDY0IDQ4LjYwODMgMTMuMTM3NSA0OC4xMjQ0IDEzLjEzNzVINDIuODcyN0M0Mi4zODg4IDEzLjEzNzUgNDEuOTk3NyAxMi43NDY0IDQxLjk5NzcgMTIuMjYyNVYxMS4zODc1SDM3LjYyMjdWMTQuODg3NUMzNy42MjI3IDE1LjM3MTQgMzcuMjMxNSAxNS43NjI1IDM2Ljc0NzcgMTUuNzYyNUgzNS44NzI3VjE3LjUwOUMzNS44NzI3IDE3Ljk5MjkgMzUuNDgxNSAxOC4zODQgMzQuOTk3NyAxOC4zODRIMzAuNjIyN0MzMC4xMzg4IDE4LjM4NCAyOS43NDc3IDE3Ljk5MjkgMjkuNzQ3NyAxNy41MDlWMTUuNzYyNUgyNi4yNTI5VjE3LjUwOUMyNi4yNTI5IDE3Ljk5MjkgMjUuODYxOCAxOC4zODQgMjUuMzc3OSAxOC4zODRIMjEuMDAyOUMyMC41MTkgMTguMzg0IDIwLjEyNzkgMTcuOTkyOSAyMC4xMjc5IDE3LjUwOVYxNS43NjI1SDE5LjI1MjlDMTguNzY5IDE1Ljc2MjUgMTguMzc3OSAxNS4zNzE0IDE4LjM3NzkgMTQuODg3NVYxMS4zODc1SDE0LjAwMzhWMTIuMjYyNUMxNC4wMDM4IDEyLjc0NjQgMTMuNjEyNyAxMy4xMzc1IDEzLjEyODggMTMuMTM3NUg3Ljg3NzAzQzcuMzkzMTYgMTMuMTM3NSA3LjAwMjAzIDEyLjc0NjQgNy4wMDIwMyAxMi4yNjI1VjYuMTM3NDlDNy4wMDIwMyA1LjY1MzYyIDcuMzkzMTYgNS4yNjI0OSA3Ljg3NzAzIDUuMjYyNDlIOS42Mjc5MVYyLjYzNTc0SDMuNTAyOTFDMy4wMTkwMyAyLjYzNTc0IDIuNjI3OTEgMi4yNDQ2MiAyLjYyNzkxIDEuNzYwNzRDMi42Mjc5MSAxLjI3Njg3IDMuMDE5MDMgMC44ODU3NDIgMy41MDI5MSAwLjg4NTc0Mkg5LjYyNzkxQzkuNjI3OTEgMC40MDE4NjcgMTAuMDE5IDAuMDEwNzQyMiAxMC41MDI5IDAuMDEwNzQyMkMxMC45ODY4IDAuMDEwNzQyMiAxMS4zNzc5IDAuNDAxODY3IDExLjM3NzkgMC44ODU3NDJIMTcuNTA0N0MxNy45ODg1IDAuODg1NzQyIDE4LjM3OTcgMS4yNzY4NyAxOC4zNzk3IDEuNzYwNzRDMTguMzc5NyAyLjI0NDYyIDE3Ljk4ODUgMi42MzU3NCAxNy41MDQ3IDIuNjM1NzRIMTEuMzc3OVY1LjI2MjQ5SDEzLjEyODhDMTMuNjEyNyA1LjI2MjQ5IDE0LjAwMzggNS42NTM2MiAxNC4wMDM4IDYuMTM3NDlWNy4wMTQyNEgxOC4zNzc5VjcuMDEwNzRDMTguMzc3OSA0LjU5ODM3IDIwLjM0MDUgMi42MzU3NCAyMi43NTI5IDIuNjM1NzRIMzMuMjQ3N0MzNS42NiAyLjYzNTc0IDM3LjYyMjcgNC41OTgzNyAzNy42MjI3IDcuMDEwNzRWNy4wMTQyNEg0MS45OTc3VjYuMTM3NDlDNDEuOTk3NyA1LjY1MzYyIDQyLjM4ODggNS4yNjI0OSA0Mi44NzI3IDUuMjYyNDlINDQuNjIzNVYyLjYzNTc0SDM4LjQ5NjhaTTM1Ljg3MjcgMTQuMDEyNVYxMy4xMzRIMjAuMTI3OVYxNC4wMTI1SDM1Ljg3MjdaTTMxLjQ5NzcgMTYuNjM0SDM0LjEyMjdWMTUuNzYyNUgzMS40OTc3VjE2LjYzNFpNMjEuODc3OSAxNi42MzRIMjQuNTAyOVYxNS43NjI1SDIxLjg3NzlWMTYuNjM0Wk0xMi4yNTM4IDcuMDEyNDlIOC43NTIwM1YxMS4zODc1SDEyLjI1MzhWNy4wMTI0OVpNMTQuMDAzOCA4Ljc2NDI0VjkuNjM3NDlIMTguMzc3OVY4Ljc2NDI0SDE0LjAwMzhaTTMxLjQ5ODUgNi4xMzc0OVY0LjM4NTc0SDI0LjUwMlY2LjEzNzQ5SDMxLjQ5ODVaTTMzLjI0ODUgNC4zODU3NFY3LjAxMjQ5QzMzLjI0ODUgNy40OTYzNyAzMi44NTc0IDcuODg3NDkgMzIuMzczNSA3Ljg4NzQ5SDIzLjYyN0MyMy4xNDMyIDcuODg3NDkgMjIuNzUyIDcuNDk2MzcgMjIuNzUyIDcuMDEyNDlWNC4zODU3NEMyMS4zMDQ4IDQuMzg2NjIgMjAuMTI3OSA1LjU2MzQ5IDIwLjEyNzkgNy4wMTA3NFYxMS4zODRIMzUuODcyN1Y3LjAxMDc0QzM1Ljg3MjcgNS41NjI2MiAzNC42OTU4IDQuMzg2NjIgMzMuMjQ4NSA0LjM4NTc0Wk0zNy42MjI3IDguNzY0MjRWOS42Mzc0OUg0MS45OTc3VjguNzY0MjRIMzcuNjIyN1pNNDMuNzQ3NyAxMS4zODc1SDQ3LjI0OTRWNy4wMTI0OUg0My43NDc3VjExLjM4NzVaIiBmaWxsPSIjMkE3QUMwIi8+Cjwvc3ZnPgo=');
+    background-repeat: no-repeat;
+}
+.svg-drone-3 {
+    background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB3aWR0aD0iNTYiIGhlaWdodD0iNTYiIHZpZXdCb3g9IjAgMCA1NiA1NiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwKSI+CjxwYXRoIGQ9Ik05LjU4OTAxIDQ1LjU4OTRDOS4zNzIwMiA0NS41ODk0IDkuMTYwNTEgNDUuNjc3IDkuMDA4MTggNDUuODMwNUM4Ljg1NDc2IDQ1Ljk4MjggOC43NjcwOSA0Ni4xOTU0IDguNzY3MDkgNDYuNDExM0M4Ljc2NzA5IDQ2LjYyNzIgOC44NTQ3NiA0Ni44Mzk4IDkuMDA4MTggNDYuOTkyMUM5LjE2MDUxIDQ3LjE0NTUgOS4zNzIwMiA0Ny4yMzMyIDkuNTg5MDEgNDcuMjMzMkM5LjgwNDkgNDcuMjMzMiAxMC4wMTc1IDQ3LjE0NTUgMTAuMTY5OCA0Ni45OTIxQzEwLjMyMzMgNDYuODM5OCAxMC40MTA5IDQ2LjYyNzIgMTAuNDEwOSA0Ni40MTEzQzEwLjQxMDkgNDYuMTk1NCAxMC4zMjMzIDQ1Ljk4MjggMTAuMTY5OCA0NS44MzA1QzEwLjAxNzUgNDUuNjc3IDkuODA0OSA0NS41ODk0IDkuNTg5MDEgNDUuNTg5NFoiIGZpbGw9IiMyQTdBQzAiLz4KPHBhdGggZD0iTTU0LjU5NzMgMzcuMDYzMUw0OC4yMDA0IDQzLjQ2QzQ3LjY3ODMgNDMuMTQyNCA0Ny4wNjU4IDQyLjk1OTMgNDYuNDExMyA0Mi45NTkzQzQ1LjcyNzkgNDIuOTU5MyA0NS4wOTA4IDQzLjE1OTggNDQuNTU0MSA0My41MDM4QzQ0LjUxNDUgNDMuMzkzIDQ0LjQ1MTEgNDMuMjg4OCA0NC4zNjI1IDQzLjIwMDJMMzUuNTk1NCAzNC40MzMxQzM1LjU1NDkgMzQuMzkyNiAzNS41MTEzIDM0LjM1NzMgMzUuNDY1NCAzNC4zMjcxTDM2LjA0OCAyNC40MjM4QzM2LjIwMzQgMjQuMzkzNyAzNi4zNTE3IDI0LjMxODQgMzYuNDcyMSAyNC4xOTgxTDQ3Ljg2OTMgMTIuODAwOUM0Ny45MTE5IDEyLjc1ODIgNDcuOTQ4NSAxMi43MTE5IDQ3Ljk3OTggMTIuNjYzMUM0OC4wNTQ3IDEyLjYyNDcgNDguMTI4NyAxMi41ODQ0IDQ4LjIwMDQgMTIuNTQwOEw1NC41OTczIDE4LjkzNzdDNTQuNzU3NyAxOS4wOTgyIDU0Ljk2ODEgMTkuMTc4NSA1NS4xNzg0IDE5LjE3ODVDNTUuMzg4NyAxOS4xNzg1IDU1LjU5OTIgMTkuMDk4MyA1NS43NTk2IDE4LjkzNzdDNTYuMDgwNiAxOC42MTY4IDU2LjA4MDYgMTguMDk2NCA1NS43NTk2IDE3Ljc3NTRMNDkuMzYyNyAxMS4zNzg1QzQ5LjY4MDQgMTAuODU2NCA0OS44NjM0IDEwLjI0MzkgNDkuODYzNCA5LjU4OTQ4QzQ5Ljg2MzQgNy42ODYwNCA0OC4zMTQ4IDYuMTM3NDQgNDYuNDExMyA2LjEzNzQ0QzQ1Ljc1NjkgNi4xMzc0NCA0NS4xNDQ0IDYuMzIwNTYgNDQuNjIyMyA2LjYzODE1TDM4LjIyNTUgMC4yNDEyMjhDMzcuOTA0NSAtMC4wNzk3NTgxIDM3LjM4NDEgLTAuMDc5NzU4MSAzNy4wNjMyIDAuMjQxMjI4QzM2Ljc0MjIgMC41NjIyMTMgMzYuNzQyMiAxLjA4MjU0IDM3LjA2MzIgMS40MDM1M0w0My40NjAxIDcuODAwNDVDNDMuMTQyNCA4LjMyMjUzIDQyLjk1OTMgOC45MzUwMiA0Mi45NTkzIDkuNTg5NDhDNDIuOTU5MyA5LjczNTAyIDQyLjk2OTQgOS44NzgxNCA0Mi45ODY5IDEwLjAxOUwzNC43NTY1IDE1Ljc4MDNDMzQuNTMxNSAxNS40NjI4IDM0LjI4NCAxNS4xNTc1IDM0LjAxMTUgMTQuODY4NEMzMi40MzQzIDEzLjE5NTYgMzAuMjk5NSAxMi4yNzQ0IDI4LjAwMDQgMTIuMjc0NEMyNS43MDEzIDEyLjI3NDQgMjMuNTY2NiAxMy4xOTU2IDIxLjk4OTQgMTQuODY4NEMyMS43MTY4IDE1LjE1NzUgMjEuNDY5NCAxNS40NjI3IDIxLjI0NDQgMTUuNzgwM0wxMy4wMTM5IDEwLjAxOUMxMy4wMzE1IDkuODc4MTQgMTMuMDQxNSA5LjczNTAyIDEzLjA0MTUgOS41ODk0OEMxMy4wNDE1IDguOTM1MDIgMTIuODU4NCA4LjMyMjUzIDEyLjU0MDggNy44MDA0NUwxOC45Mzc3IDEuNDAzNTNDMTkuMjU4NyAxLjA4MjU0IDE5LjI1ODcgMC41NjIyMTMgMTguOTM3NyAwLjI0MTIyOEMxOC42MTY4IC0wLjA3OTc1ODEgMTguMDk2MyAtMC4wNzk3NTgxIDE3Ljc3NTQgMC4yNDEyMjhMMTEuMzc4NSA2LjYzODE1QzEwLjg1NjQgNi4zMjA1NiAxMC4yNDM5IDYuMTM3NDQgOS41ODk0OSA2LjEzNzQ0QzcuNjg2MDQgNi4xMzc0NCA2LjEzNzQ0IDcuNjg2MDQgNi4xMzc0NCA5LjU4OTQ4QzYuMTM3NDQgMTAuMjQzOSA2LjMyMDU2IDEwLjg1NjQgNi42MzgxNSAxMS4zNzg1TDAuMjQxMjI4IDE3Ljc3NTRDLTAuMDc5NzU4MiAxOC4wOTY0IC0wLjA3OTc1ODIgMTguNjE2OCAwLjI0MTIyOCAxOC45Mzc3QzAuNDAxNjY2IDE5LjA5ODMgMC42MTIwNzYgMTkuMTc4NSAwLjgyMjM3NyAxOS4xNzg1QzEuMDMyNjggMTkuMTc4NSAxLjI0MzA5IDE5LjA5ODMgMS40MDM1MyAxOC45Mzc3TDcuODAwNDUgMTIuNTQwOEM3Ljg3MjEyIDEyLjU4NDQgNy45NDYwOSAxMi42MjQ3IDguMDIxMDUgMTIuNjYzMUM4LjA1MjM5IDEyLjcxMTkgOC4wODg4OCAxMi43NTgyIDguMTMxNTEgMTIuODAwOUwxOS41Mjg4IDI0LjE5ODFDMTkuNjQ5MSAyNC4zMTg0IDE5Ljc5NzUgMjQuMzkzNyAxOS45NTI5IDI0LjQyMzhMMjAuNTM1NCAzNC4zMjcxQzIwLjQ4OTUgMzQuMzU3MyAyMC40NDU5IDM0LjM5MjYgMjAuNDA1NSAzNC40MzMxTDExLjYzODQgNDMuMjAwMkMxMS41NDk2IDQzLjI4ODkgMTEuNDg2NCA0My4zOTMxIDExLjQ0NjcgNDMuNTAzOEMxMC45MSA0My4xNTk4IDEwLjI3MyA0Mi45NTkzIDkuNTg5NDkgNDIuOTU5M0M4LjkzNTAyIDQyLjk1OTMgOC4zMjI1MyA0My4xNDI0IDcuODAwNDUgNDMuNDZMMS40MDM1MyAzNy4wNjMxQzEuMDgyNTQgMzYuNzQyMSAwLjU2MjEwNCAzNi43NDIxIDAuMjQxMjI4IDM3LjA2MzFDLTAuMDc5NzU4MiAzNy4zODQxIC0wLjA3OTc1ODIgMzcuOTA0NSAwLjI0MTIyOCAzOC4yMjU0TDYuNjM4MTUgNDQuNjIyM0M2LjMyMDU2IDQ1LjE0NDQgNi4xMzc0NCA0NS43NTY5IDYuMTM3NDQgNDYuNDExM0M2LjEzNzQ0IDQ4LjMxNDggNy42ODYwNCA0OS44NjM0IDkuNTg5NDkgNDkuODYzNEMxMC4yNDM5IDQ5Ljg2MzQgMTAuODU2NCA0OS42ODA0IDExLjM3ODUgNDkuMzYyOEwxNy43NzU0IDU1Ljc1OTdDMTcuOTM1OSA1NS45MjAyIDE4LjE0NjMgNTYuMDAwNSAxOC4zNTY2IDU2LjAwMDVDMTguNTY2OSA1Ni4wMDA1IDE4Ljc3NzMgNTUuOTIwMiAxOC45Mzc3IDU1Ljc1OTdDMTkuMjU4NyA1NS40Mzg3IDE5LjI1ODcgNTQuOTE4MyAxOC45Mzc3IDU0LjU5NzRMMTIuNzA1MiA0OC4zNjQ4TDIyLjcyNzEgNDIuOTY4NEMyMy40MjQ0IDQzLjQ0NjYgMjQuMjY2NSA0My43MjY0IDI1LjE3MDEgNDMuNzI2NEgzMC44MzA4QzMxLjczNDMgNDMuNzI2NCAzMi41NzY0IDQzLjQ0NjYgMzMuMjczNyA0Mi45Njg0TDQzLjI5NTYgNDguMzY0OEwzNy4wNjMxIDU0LjU5NzRDMzYuNzQyMSA1NC45MTg0IDM2Ljc0MjEgNTUuNDM4OCAzNy4wNjMxIDU1Ljc1OTdDMzcuMjIzNSA1NS45MjAyIDM3LjQzMzkgNTYuMDAwNSAzNy42NDQyIDU2LjAwMDVDMzcuODU0NSA1Ni4wMDA1IDM4LjA2NDkgNTUuOTIwMiAzOC4yMjU0IDU1Ljc1OTdMNDQuNjIyMyA0OS4zNjI4QzQ1LjE0NDQgNDkuNjgwNCA0NS43NTY5IDQ5Ljg2MzQgNDYuNDExMyA0OS44NjM0QzQ4LjMxNDggNDkuODYzNCA0OS44NjM0IDQ4LjMxNDggNDkuODYzNCA0Ni40MTEzQzQ5Ljg2MzQgNDUuNzU2OSA0OS42ODAzIDQ1LjE0NDQgNDkuMzYyNyA0NC42MjI0TDU1Ljc1OTYgMzguMjI1NUM1Ni4wODA2IDM3LjkwNDUgNTYuMDgwNiAzNy4zODQxIDU1Ljc1OTYgMzcuMDYzMkM1NS40Mzg3IDM2Ljc0MjIgNTQuOTE4MyAzNi43NDIyIDU0LjU5NzMgMzcuMDYzMVpNNDMuMjAwMSA0NC4zNjI1QzQzLjI4ODggNDQuNDUxMiA0My4zOTMgNDQuNTE0NSA0My41MDM4IDQ0LjU1NDFDNDMuMTc1NiA0NS4wNjYyIDQyLjk3OSA0NS42NyA0Mi45NjE3IDQ2LjMxOEwzNC40NjY4IDQxLjc0MzhDMzQuODYwMyA0MS4xMzU3IDM1LjEwNjggNDAuNDIyMiAzNS4xNTIyIDM5LjY1MkwzNS4zMzc2IDM2LjVMNDMuMjAwMSA0NC4zNjI1Wk00Ni40MTEzIDcuNzgxMjdDNDcuNDA4NCA3Ljc4MTI3IDQ4LjIxOTYgOC41OTI0NSA0OC4yMTk2IDkuNTg5NDhDNDguMjE5NiAxMC41ODY2IDQ3LjQwODQgMTEuMzk3NyA0Ni40MTEzIDExLjM5NzdDNDUuNDE0MyAxMS4zOTc3IDQ0LjYwMzEgMTAuNTg2NiA0NC42MDMxIDkuNTg5NDhDNDQuNjAzMSA4LjU5MjQ1IDQ1LjQxNDMgNy43ODEyNyA0Ni40MTEzIDcuNzgxMjdaTTQzLjYwMzYgMTEuNTkzOUM0NC4wNDgyIDEyLjIxNDkgNDQuNjkyOSAxMi42ODI3IDQ1LjQ0MzEgMTIuOTAyNEwzNi4xODA5IDIyLjE2NDZMMzYuMjQ4MiAyMS4wMjE0QzM2LjMyNjUgMTkuNjg5NiAzNi4wODk5IDE4LjM5NTcgMzUuNTcxMSAxNy4yMTY3TDQzLjYwMzYgMTEuNTkzOVpNMjMuMTg1NCAxNS45OTYyQzIzLjM0MDkgMTUuODMxMiAyMy41MDMzIDE1LjY3NTYgMjMuNjcxOCAxNS41MjkyVjE3LjQ3OTdDMjMuNjcxOCAxNy45MzM2IDI0LjAzOTggMTguMzAxNiAyNC40OTM3IDE4LjMwMTZDMjQuOTQ3NiAxOC4zMDE2IDI1LjMxNTYgMTcuOTMzNiAyNS4zMTU2IDE3LjQ3OTdWMTQuODQ5N0MyNS4zMTU2IDE0LjczMDcgMjUuMjg5NyAxNC42MTc5IDI1LjI0NDMgMTQuNTE1N0MyNi4wOTU4IDE0LjEyNTQgMjcuMDI5MyAxMy45MTgyIDI4LjAwMDQgMTMuOTE4MkMyOC45NzE1IDEzLjkxODIgMjkuOTA1MSAxNC4xMjU0IDMwLjc1NjcgMTQuNTE1N0MzMC43MTExIDE0LjYxNzkgMzAuNjg1MyAxNC43MzA3IDMwLjY4NTMgMTQuODQ5N1YxNy40Nzk3QzMwLjY4NTMgMTcuOTMzNiAzMS4wNTMzIDE4LjMwMTYgMzEuNTA3MyAxOC4zMDE2QzMxLjk2MTIgMTguMzAxNiAzMi4zMjkyIDE3LjkzMzYgMzIuMzI5MiAxNy40Nzk3VjE1LjUyOTJDMzIuNDk3NiAxNS42NzU2IDMyLjY2IDE1LjgzMTIgMzIuODE1NSAxNS45OTYyQzM0LjA3OSAxNy4zMzYxIDM0LjcxNTEgMTkuMDg2NSAzNC42MDcgMjAuOTI0OUwzMy41MTExIDM5LjU1NTNDMzMuNDYwMiA0MC40MjAyIDMzLjAwMTQgNDEuMTcwMiAzMi4zMjkyIDQxLjYyMzhWMjAuOTg2N0MzMi4zMjkyIDIwLjUzMjggMzEuOTYxMiAyMC4xNjQ4IDMxLjUwNzMgMjAuMTY0OEMzMS4wNTMzIDIwLjE2NDggMzAuNjg1MyAyMC41MzI4IDMwLjY4NTMgMjAuOTg2N1Y0Mi4wMjc4QzMwLjY4NTMgNDIuMDQ2MyAzMC42ODY5IDQyLjA2NDQgMzAuNjg4MSA0Mi4wODI2SDI1LjMxMjdDMjUuMzE0IDQyLjA2NDQgMjUuMzE1NSA0Mi4wNDYzIDI1LjMxNTUgNDIuMDI3OFYyMC45ODY3QzI1LjMxNTUgMjAuNTMyOCAyNC45NDc1IDIwLjE2NDggMjQuNDkzNiAyMC4xNjQ4QzI0LjAzOTcgMjAuMTY0OCAyMy42NzE3IDIwLjUzMjggMjMuNjcxNyAyMC45ODY3VjQxLjYyMzhDMjIuOTk5NCA0MS4xNzAyIDIyLjU0MDcgNDAuNDIwMiAyMi40ODk3IDM5LjU1NTNMMjEuMzkzOCAyMC45MjQ5QzIxLjI4NTcgMTkuMDg2NSAyMS45MjIgMTcuMzM2MSAyMy4xODU0IDE1Ljk5NjJaTTkuNTg5NDkgNy43ODEyN0MxMC41ODY1IDcuNzgxMjcgMTEuMzk3NyA4LjU5MjQ1IDExLjM5NzcgOS41ODk0OEMxMS4zOTc3IDEwLjU4NjYgMTAuNTg2NSAxMS4zOTc3IDkuNTg5NDkgMTEuMzk3N0M4LjU5MjQ1IDExLjM5NzcgNy43ODEyNyAxMC41ODY2IDcuNzgxMjcgOS41ODk0OEM3Ljc4MTI3IDguNTkyNDUgOC41OTI0NSA3Ljc4MTI3IDkuNTg5NDkgNy43ODEyN1pNMTAuNTU3OCAxMi45MDI0QzExLjMwODEgMTIuNjgyNyAxMS45NTI4IDEyLjIxNDkgMTIuMzk3NCAxMS41OTM5TDIwLjQyOTkgMTcuMjE2N0MxOS45MTExIDE4LjM5NTcgMTkuNjc0NSAxOS42ODk2IDE5Ljc1MjkgMjEuMDIxNEwxOS44MjAyIDIyLjE2NDZMMTAuNTU3OCAxMi45MDI0Wk0yMC42NjM0IDM2LjQ5OTlMMjAuODQ4OSAzOS42NTE5QzIwLjg5NDIgNDAuNDIyMSAyMS4xNDA2IDQxLjEzNTcgMjEuNTM0MSA0MS43NDM3TDEzLjAzOTIgNDYuMzE3OUMxMy4wMjE5IDQ1LjY2OTkgMTIuODI1MyA0NS4wNjYxIDEyLjQ5NzEgNDQuNTU0QzEyLjYwNzkgNDQuNTE0NCAxMi43MTIxIDQ0LjQ1MTEgMTIuODAwOSA0NC4zNjI0TDIwLjY2MzQgMzYuNDk5OVpNOS41ODk0OSA0OC4yMTk2QzguNTkyNDUgNDguMjE5NiA3Ljc4MTI3IDQ3LjQwODUgNy43ODEyNyA0Ni40MTEzQzcuNzgxMjcgNDUuNDE0MyA4LjU5MjQ1IDQ0LjYwMzEgOS41ODk0OSA0NC42MDMxQzEwLjU4NjUgNDQuNjAzMSAxMS4zOTc3IDQ1LjQxNDMgMTEuMzk3NyA0Ni40MTEzQzExLjM5NzcgNDcuNDA4NSAxMC41ODY1IDQ4LjIxOTYgOS41ODk0OSA0OC4yMTk2Wk00Ni40MTEzIDQ4LjIxOTZDNDUuNDE0MyA0OC4yMTk2IDQ0LjYwMzEgNDcuNDA4NSA0NC42MDMxIDQ2LjQxMTNDNDQuNjAzMSA0NS40MTQzIDQ1LjQxNDMgNDQuNjAzMSA0Ni40MTEzIDQ0LjYwMzFDNDcuNDA4NCA0NC42MDMxIDQ4LjIxOTYgNDUuNDE0MyA0OC4yMTk2IDQ2LjQxMTNDNDguMjE5NiA0Ny40MDg1IDQ3LjQwODQgNDguMjE5NiA0Ni40MTEzIDQ4LjIxOTZaIiBmaWxsPSIjMkE3QUMwIi8+CjxwYXRoIGQ9Ik00Ni40MTEzIDQ1LjU4OTRDNDYuMTk1NCA0NS41ODk0IDQ1Ljk4MjggNDUuNjc3IDQ1LjgzMDUgNDUuODMwNUM0NS42NzcgNDUuOTgyOCA0NS41ODk0IDQ2LjE5NTQgNDUuNTg5NCA0Ni40MTEzQzQ1LjU4OTQgNDYuNjI3MiA0NS42NzcgNDYuODM5OCA0NS44MzA1IDQ2Ljk5MjFDNDUuOTgyOCA0Ny4xNDU1IDQ2LjE5NTQgNDcuMjMzMiA0Ni40MTEzIDQ3LjIzMzJDNDYuNjI3MiA0Ny4yMzMyIDQ2LjgzOTggNDcuMTQ1NSA0Ni45OTIxIDQ2Ljk5MjFDNDcuMTQ1NSA0Ni44Mzk4IDQ3LjIzMzIgNDYuNjI3MiA0Ny4yMzMyIDQ2LjQxMTNDNDcuMjMzMiA0Ni4xOTU0IDQ3LjE0NTUgNDUuOTgyOCA0Ni45OTIxIDQ1LjgzMDVDNDYuODM5OCA0NS42NzcgNDYuNjI3MiA0NS41ODk0IDQ2LjQxMTMgNDUuNTg5NFoiIGZpbGw9IiMyQTdBQzAiLz4KPHBhdGggZD0iTTQ2LjQxMTMgMTAuNDEwOUM0Ni42MjcyIDEwLjQxMDkgNDYuODM5OCAxMC4zMjMzIDQ2Ljk5MjEgMTAuMTY5OEM0Ny4xNDU1IDEwLjAxNzUgNDcuMjMzMiA5LjgwNDkgNDcuMjMzMiA5LjU4OTAxQzQ3LjIzMzIgOS4zNzMxMiA0Ny4xNDU1IDkuMTYwNTEgNDYuOTkyMSA5LjAwODE4QzQ2LjgzOTggOC44NTQ3NiA0Ni42MjcyIDguNzY3MDkgNDYuNDExMyA4Ljc2NzA5QzQ2LjE5NTQgOC43NjcwOSA0NS45ODI4IDguODU0NzYgNDUuODMwNSA5LjAwODE4QzQ1LjY3NyA5LjE2MDUxIDQ1LjU4OTQgOS4zNzMxMiA0NS41ODk0IDkuNTg5MDFDNDUuNTg5NCA5LjgwNDkgNDUuNjc3IDEwLjAxNzUgNDUuODMwNSAxMC4xNjk4QzQ1Ljk4MjggMTAuMzIzMyA0Ni4xOTU0IDEwLjQxMDkgNDYuNDExMyAxMC40MTA5WiIgZmlsbD0iIzJBN0FDMCIvPgo8cGF0aCBkPSJNOS41ODkwMSAxMC40MTA5QzkuODA0OSAxMC40MTA5IDEwLjAxNzUgMTAuMzIzMyAxMC4xNjk4IDEwLjE2OThDMTAuMzIzMyAxMC4wMTc1IDEwLjQxMDkgOS44MDQ5IDEwLjQxMDkgOS41ODkwMUMxMC40MTA5IDkuMzczMTIgMTAuMzIzMyA5LjE2MDUxIDEwLjE2OTggOS4wMDgxOEMxMC4wMTc1IDguODU0NzYgOS44MDQ5IDguNzY3MDkgOS41ODkwMSA4Ljc2NzA5QzkuMzcyMDIgOC43NjcwOSA5LjE2MDUxIDguODU0NzYgOS4wMDgxOCA5LjAwODE4QzguODU0NzYgOS4xNjA1MSA4Ljc2NzA5IDkuMzczMTIgOC43NjcwOSA5LjU4OTAxQzguNzY3MDkgOS44MDQ5IDguODU0NzYgMTAuMDE3NSA5LjAwODE4IDEwLjE2OThDOS4xNjA1MSAxMC4zMjMzIDkuMzcyMDIgMTAuNDEwOSA5LjU4OTAxIDEwLjQxMDlaIiBmaWxsPSIjMkE3QUMwIi8+CjxwYXRoIGQ9Ik0yOC4wMDAxIDQwLjIxOTNDMjguNDU0MSA0MC4yMTkzIDI4LjgyMjEgMzkuODUxNCAyOC44MjIxIDM5LjM5NzRWMzYuNzY3MkMyOC44MjIxIDM2LjMxMzMgMjguNDU0MSAzNS45NDUzIDI4LjAwMDEgMzUuOTQ1M0MyNy41NDYyIDM1Ljk0NTMgMjcuMTc4MiAzNi4zMTMzIDI3LjE3ODIgMzYuNzY3MlYzOS4zOTc0QzI3LjE3ODIgMzkuODUxNCAyNy41NDYyIDQwLjIxOTMgMjguMDAwMSA0MC4yMTkzWiIgZmlsbD0iIzJBN0FDMCIvPgo8L2c+CjxkZWZzPgo8Y2xpcFBhdGggaWQ9ImNsaXAwIj4KPHJlY3Qgd2lkdGg9IjU2IiBoZWlnaHQ9IjU2IiBmaWxsPSJ3aGl0ZSIvPgo8L2NsaXBQYXRoPgo8L2RlZnM+Cjwvc3ZnPgo=');
+    background-repeat: no-repeat;   
+}
+.svg-download {
+    background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB3aWR0aD0iNDAiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCA0MCA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTIxLjY2NjYgMTYuNjY2N0gyOS45OTk5TDE5Ljk5OTkgMjYuNjY2N0w5Ljk5OTkyIDE2LjY2NjdIMTguMzMzM1Y1SDIxLjY2NjZWMTYuNjY2N1pNNi42NjY1OSAzMS42NjY3SDMzLjMzMzNWMjBIMzYuNjY2NlYzMy4zMzMzQzM2LjY2NjYgMzMuNzc1NCAzNi40OTEgMzQuMTk5MyAzNi4xNzg0IDM0LjUxMThDMzUuODY1OSAzNC44MjQ0IDM1LjQ0MTkgMzUgMzQuOTk5OSAzNUg0Ljk5OTkyQzQuNTU3ODkgMzUgNC4xMzM5NyAzNC44MjQ0IDMuODIxNDEgMzQuNTExOEMzLjUwODg1IDM0LjE5OTMgMy4zMzMyNSAzMy43NzU0IDMuMzMzMjUgMzMuMzMzM1YyMEg2LjY2NjU5VjMxLjY2NjdaIiBmaWxsPSJ3aGl0ZSIvPgo8L3N2Zz4K');
+    background-repeat: no-repeat;   
+}
+
+
+@media(max-width: 1300px) {
+
+
+    .dji-main {
+        padding: 0 15px;
+    }
+    .dji-main__rectangle {
+        height: 508px;
+        background-size: cover;
+    }
+    .dji-main__top {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -webkit-box-pack: unset;
+            -ms-flex-pack: unset;
+                justify-content: unset;
+    }
+    .dji-main__title {
+        text-align: center !important;
+    }
+    .dji-main__bottom {
+        -webkit-box-pack: unset;
+            -ms-flex-pack: unset;
+                justify-content: unset;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .dji-main__rectangle {
+        background: url('/files/img/dji/rectangle-mobi-min.png');
+        height: 277px;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: 666px 277px;
+    }
+
+
+    .dji-why-good {
+        padding: 0 15px;
+    }
+    .dji-why-good__center {
+        -webkit-box-pack: unset;
+            -ms-flex-pack: unset;
+                justify-content: unset;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .dji-why-good__center-right {
+        margin-top: 31px;
+    }
+
+    .dji-auto {
+        padding: 0 15px;
+    }
+    .dji-auto__top {
+        -webkit-box-pack: unset;
+            -ms-flex-pack: unset;
+                justify-content: unset;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .dji-auto__top-left {
+        width: 538px;
+    }
+    .dji-auto__title {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 42px;
+        text-align: center;
+    }
+    .dji-auto__top-right {
+        width: 538px;
+        margin-top: 32px;
+    }
+    .dji-auto__text {
+        text-align: center;
+    }
+
+
+    .dji-solution {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        padding: 0 15px;
+    }
+    .dji-solution__wrap {
+        -webkit-box-pack: unset;
+            -ms-flex-pack: unset;
+                justify-content: unset;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+
+    .dji-features {
+        margin-top: 100px;
+        padding: 0 15px;
+    }
+    .dji-features__items {
+        margin-top: 100px;
+        margin-bottom: 0;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .dji-features__items::before {
+        top: -83px;
+        -webkit-transform: none;
+            -ms-transform: none;
+                transform: none;
+    }
+    .dji-features__items::after {
+        display: none;
+    }
+    .dji-features__list {
+        list-style: none;
+        margin-top: 69px !important;
+    }
+    .dji-features__item {
+        position: relative;
+        top: unset;
+        left: unset;
+        right: unset;
+        text-align: left;
+        margin-bottom: 24px !important;
+    }
+    .dji-features__item:last-child {
+        margin-bottom: 0 !important;
+    }
+    .dji-features__img {
+        width: 342px;
+        height: 100px;
+    }
+    .dji-features__item--right::before {
+        right: unset;
+        left: -20px;
+    }
+    .dji-features__item--right::after {
+        right: unset;
+        left: -18px;
+    }
+    .dji-features__item--top::before {
+        top: 50%;
+        left: -20px;
+        -webkit-transform: translateY(-50%) rotate(45deg);
+            -ms-transform: translateY(-50%) rotate(45deg);
+                transform: translateY(-50%) rotate(45deg);
+    }
+    .dji-features__item--top::after {
+        top: 50%;
+        left: -18px;
+        -webkit-transform: translateY(-50%) rotate(45deg);
+            -ms-transform: translateY(-50%) rotate(45deg);
+                transform: translateY(-50%) rotate(45deg);
+    }
+    .dji-features__shadow {
+        position: unset;
+        bottom: unset;
+        margin-top: 30px;
+    }
+
+    .dji-no-cost {
+        padding: 0 15px;
+    }
+    .dji-no-cost__wrap {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .dji-no-cost__left {
+        width: 586px;
+    }
+
+    .agrodom-offers {
+        padding: 0 15px;
+    }
+    .agrodom-offers__header-top {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        height: 620px;
+    }
+    .agrodom-offers__header-top-left::after {
+        left: 414px;
+    }
+    .agrodom-offers__header-top-right-img {
+        position: relative;
+        top: 36px;
+    }
+    .agrodom-offers__center-items {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .agrodom-offers__center-item {
+        margin: 0px 30px 30px 30px;
+    }
+    .agrodom-offers__rectangle {
+        background-size: cover;
+        height: 1012px;
+    }
+
+
+    .dji-download__link {
+        padding: 160px 0 114px 0;
+    }
+}
+
+@media(max-width: 1170px) {
+    .dji-solution__wrap {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1140px) {
+    .agrodom-offers__header-top {
+        width: 100%;
+    }
+}
+
+@media(max-width: 849px) {
+    .agrodom-offers__rectangle {
+        height: 1250px;
+    }
+}
+
+@media (max-width: 666px) {
+
+    .dji-main__title {
+        text-align: left !important;
+        font-size: 36px !important;
+        line-height: 42px !important;
+    }
+    .dji-main__bottom-left {
+        margin-top: 69px;
+        width: 345px;
+    }
+    .dji-main__text-brand {
+        left: 148px;
+    }
+    .dji-main__top-left {
+        width: auto;
+    }
+    .dji-main__img {
+        width: 330px;
+        height: 137px;
+    }
+    .dji-main__img-text {
+        width: 285px;
+        height: 165px;
+    }
+    .dji-main__bottom-right {
+        margin-top: 40px;
+        width: auto;
+    }
+    .dji-main__rectangle {
+        height: 339px;
+        background-size: 666px 339px;
+    }
+
+    .dji-features {
+        margin-top: 0;
+    }
+    .dji-features__wrap {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+    .dji-features__header {
+        width: 267px;
+    }
+    .dji-features__img {
+        width: 344px;
+        height: 123px;
+    }
+    .dji-features__list {
+        margin: 69px auto 0 auto !important;
+        width: 317px;
+    }
+    .dji-features__items {
+        display: block;
+        width: 342px;
+        height: 100px;
+        margin-top: 100px;
+    }
+
+    .dji-features__items::before {
+        top: -62px;
+        left: 63px;
+        width: 214px;
+        height: 214px;
+    }
+    .dji-features__item {
+        width: 315px;
+    }
+    .dji-features__item--left::after,
+    .dji-features__item--right::after,
+    .dji-features__item--top::after,
+    .dji-features__item--left::before,
+    .dji-features__item--right::before,
+    .dji-features__item--top::before {
+        top: 11px;
+        -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+                transform: rotate(45deg);
+    }
+
+    .dji-why-good__img {
+        width: 345px;
+        height: 219px;
+    }
+    .dji-why-good__center-left {
+        width: 100%;
+    }
+    .dji-why-good__center-right {
+        width: 100%;
+    }
+    .dji-why-good__center-left-bottom {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .dji-why-good__title {
+        width: 224px;
+        line-height: 42px;
+    }
+
+    .dji-solution {
+        margin-top: 96px
+    }
+    .dji-solution__img {
+        height: 256px;
+        background: url(/files/img/dji/dji-solution-mobi-min.png);
+        background-repeat: no-repeat;
+        width: 375px;
+        position: relative;
+    }
+    .dji-solution__right {
+        margin-top: 64px;
+        width: 100%;
+    }
+
+    .dji-auto__top-left {
+        width: 100%;
+    }
+    .dji-auto__top-right {
+        width: 100%;
+    }
+
+    .dji-no-cost {
+        margin-top: 780px;
+    }
+    .dji-no-cost__left {
+        width: 100%;
+    }
+    .dji-no-cost__img {
+        width: 346px;
+        height: 220px;
+    }
+
+    .agrodom-offers__header {
+        margin-top: 50px;
+    }
+    .agrodom-offers__header-top-right-img {
+        width: 375px;
+        height: 209px;
+    }
+    .agrodom-offers {
+        margin-top: 100px;
+    }
+    .agrodom-offers__rectangle {
+        height: 1247px;
+        background: url('/files/img/dji/rectangle-5-dji-mobi-min.png');
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+        background-size: 666px 1247px;
+    }
+    .agrodom-offers__header-top-left {
+        width: 284px;
+        margin-left: 0;
+    }
+    .agrodom-offers__header-top-left::before {
+        left: 26px;
+        top: 37px;
+    }
+    .agrodom-offers__header-top-left::after {
+        left: 80px;
+        top: 91px;
+    }
+    .agrodom-offers__title {
+        width: 312px;
+    }
+    .agrodom-offers__center-item {
+        width: 345px;
+        padding: 30px 25px 30px 30px;
+        margin: 0 0 30px 0;
+    }
+    .agrodom-offers__bottom {
+        margin-top: 64px;
+    }
+    .agrodom-offers__header-top-left-text {
+        width: auto;
+    }
+
+    .dji-download__link {
+        font-size: 24px;
+        line-height: 28px;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+}
+
+@media (max-width: 537px) {
+    .dji-why-good__center-right-items {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    .dji-why-good__center-right-item:nth-child(1),
+    .dji-why-good__center-right-item:nth-child(2) {
+        margin-top: 30px;
+    }
+}
+</style>
+
+
+<div class="dji-main">
+    <div class="dji-main__rectangle"></div>
+    <div class="dji-main__wrap">
+        <div class="dji-main__top">
+            <div class="dji-main__top-left">
+                <h1 class="dji-main__title">Дроны DJI</h1>
+            </div>
+            <div class="dji-main__top-right">
+                    <picture>
+                        <source srcset="/files/img/dji/dji-dron-mobi-min.png" width="330" height="147"  alt="" media="(max-width: 666px)">
+                        <img class="dji-main__img" src="/files/img/dji/dji-dron-min.png" width="564" height="233" alt="">
+                   </picture>
+            </div>
+        </div>
+        <div class="dji-main__bottom">
+            <div class="dji-main__bottom-left">
+                <p class="dji-main__text-brand">DJI</p>
+                <p class="dji-main__text-title">Китайская компания DJI —</p>
+                <p class="dji-main__text">Это лидер рынка беспилотных летательных аппаратов. Она стала пионером массового производства дронов, в т.ч. в агрокультурном комплексе, и отличается демократичностью цен и инновационностью разработок.</p>
+            </div>
+            <div class="dji-main__bottom-right">
+                <picture>
+                    <source srcset="/files/img/dji/dji-mobi-min.png" width="285" height="165"  alt="" media="(max-width: 666px)">
+                    <img class="dji-main__img-text" src="/files/img/dji/dji-min.png" width="384" height="170" alt="">
+               </picture>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="dji-why-good">
+    <div class="dji-why-good__wrap">
+        <div class="dji-why-good__header">
+            <p class="dji-why-good__title dji-why-good__text">Чем дроны DJI хороши для фермера</p>
+        </div>
+        <div class="dji-why-good__center">
+            <div class="dji-why-good__center-left">
+                <div class="dji-why-good__center-left-top">
+                    <p class="dji-why-good__center-left-top-text dji-why-good__text">В отличие от наземных вариантов, беспилотные дроны DJI могут выполнять полевые работы по распутице. Также они выручают на участках со сложным рельефом почвы или расположенных на склонах.</p>
+                    <p class="dji-why-good__center-left-top-text dji-why-good__text">Успешно справляются дроны DJI и с другими нестандартными задачами:</p>
+                </div>
+                <div class="dji-why-good__center-left-bottom">
+                    <picture>
+                        <source srcset="/files/img/dji/dji-work-mobi-min.jpg" width="345" height="219"  alt="" media="(max-width: 666px)">
+                        <img class="dji-why-good__img" src="/files/img/dji/dji-work-min.jpg" width="538" height="255" alt="">
+                   </picture>
+                </div>
+            </div>
+            <div class="dji-why-good__center-right">
+                <div class="dji-why-good__center-right-items">
+
+                    <div class="dji-why-good__center-right-item">
+                        <p class="dji-why-good__center-right-item-number dji-why-good__text dji-why-good__text--number">01</p>
+                        <p class="dji-why-good__center-right-item-text dji-why-good__text">Внесение удобрений и гербицидов по весне.</p>
+                    </div>
+
+                    <div class="dji-why-good__center-right-item">
+                        <p class="dji-why-good__center-right-item-number dji-why-good__text dji-why-good__text--number">02</p>
+                        <p class="dji-why-good__center-right-item-text dji-why-good__text">Десикация растений на поздних стадиях вегетации для облегчения машинной уборки урожая.</p>
+                    </div>
+
+                    <div class="dji-why-good__center-right-item">
+                        <p class="dji-why-good__center-right-item-number dji-why-good__text dji-why-good__text--number">03</p>
+                        <p class="dji-why-good__center-right-item-text dji-why-good__text">Обработка рисовых полей, уход за другими культурами, которые выращиваются на заливных лугах.</p>
+                    </div>
+
+                    <div class="dji-why-good__center-right-item">
+                        <p class="dji-why-good__center-right-item-number dji-why-good__text dji-why-good__text--number">04</p>
+                        <p class="dji-why-good__center-right-item-text dji-why-good__text">Обслуживание виноградников на возвышенностях.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="dji-auto">
+    <div class="dji-auto__wrap">
+        <div class="dji-auto__top">
+            <div class="dji-auto__top-left">
+                <p class="dji-auto__title dji-auto__text">Автоматизация полетов</p>
+            </div>
+            <div class="dji-auto__top-right">
+                <p class="dji-auto__text">Дроны DJI могут «запоминать» обработанные участки и использоваться для контроля посадок. Это позволяет планировать сельскохозяйственные работы, составлять прогнозы по урожаю. Благодаря функции автоматизированных полетов управлять таким дроном можно даже при помощи смартфона. А собранные им данные - загружать в облачное хранилище.</p>
+            </div>
+        </div>
+        <div class="dji-auto__bottom">
+            <img class="dji-auto__img" src="/files/img/dji/dji-auto-min.jpg" width="1140" height="400" alt="">
+        </div>
+    </div>
+</div>
+
+
+<div class="dji-solution">
+    <div class="dji-solution__img"></div>
+    <div class="dji-solution__wrap">
+        <div class="dji-solution__left"></div>
+        <div class="dji-solution__right">
+            <p class="dji-solution__title dji-solution__text">Решение интеллектуальных задач фермерства</p>
+            <ul class="dji-solution__list">
+                <li class="dji-solution__list-item dji-solution__text">Определение фактической площади сева, уборки и необрабатываемой земли;</li>
+                <li class="dji-solution__list-item dji-solution__text">Сбор данных о всхожести озимых культур, качестве сева, предполагаемом урожае (что важно для полей с неоднородной урожайностью);</li>
+                <li class="dji-solution__list-item dji-solution__text">Подготовка земли под зябь или пар;</li>
+                <li class="dji-solution__list-item dji-solution__text">Точечная обработка посевов. Это позволяет быстро распылить гербицид или пестицид в очаги поражения, пока они не разрослись, или дифференцировать внесение удобрений.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="dji-features">
+    <div class="dji-features__wrap">
+        <div class="dji-features__header">
+            <p class="dji-features__title dji-features__text">Характеристики дронов DJI</p>
+        </div>
+        <div class="dji-features__items">
+            <picture>
+                <source srcset="/files/img/dji/dji-features-mobi-min.png" width="344" height="123"  alt="" media="(max-width: 666px)">
+                <img class="dji-features__img" src="/files/img/dji/dji-features-min.png" width="434" height="156" alt="">
+           </picture>
+            <div class="dji-features__shadow"></div>
+            <ul class="dji-features__list">
+                <li class="dji-features__item dji-features__item-1 dji-features__item--right dji-features__text">Дроны DJI работают по карте поля, т.е. требуют минимального внимания оператора и исключают человеческий фактор при обработке посадок;</li>
+                <li class="dji-features__item dji-features__item-2 dji-features__item--right dji-features__text">Обеспечивает более равномерную обработку листа и оптимальный расход СЗР благодаря регулируемому размеру микрокапель;</li>
+                <li class="dji-features__item dji-features__item-3 dji-features__item--top dji-features__text">Встроенная камера обеспечивает точность обработки ряда до 1 см.</li>
+                <li class="dji-features__item dji-features__item-4 dji-features__item--left dji-features__text">Высокая производительность - одна «птичка» способна обслужить около 18 га посадок за 1 час;</li>
+                <li class="dji-features__item dji-features__item-5 dji-features__item--left dji-features__text">Системы GPS-навигации, радиолокации и распознавания людей, модули для работы с сетями 5G исключают риск случайного опыления людей, попавших на поле, или вылета дрона за пределы карты.</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<div class="dji-no-cost">
+    <div class="dji-no-cost__wrap">
+        <div class="dji-no-cost__left">
+            <p class="dji-no-cost__title dji-no-cost__text">Отсутствие издержек</p>
+            <p class="dji-no-cost__left-text dji-no-cost__text">Использование беспилотных дронов позволяет избежать издержек, связанных с использованием наземного (в особенности, прицепного) оборудования:</p>
+            <ul class="dji-no-cost__left-list">
+                <li class="dji-no-cost__left-list-item dji-no-cost__text">Не оставляет после себя колею в стеблестое, таким образом сохраняя <span class="dji-no-cost__text--bold">от 3 до 8%</span> урожая от вытаптывания;</li>
+                <li class="dji-no-cost__left-list-item dji-no-cost__text"><span class="dji-no-cost__text--bold">На 40%</span> сокращает расход раствора для обработки СХ-культур.</li>
+                <li class="dji-no-cost__left-list-item dji-no-cost__text"><span class="dji-no-cost__text--bold">В 60 раз</span> эффективнее ручного распыления, а также намного безопаснее - как для оператора, так и для окружающей среды.</li>
+            </ul>
+        </div>
+        <div class="dji-no-cost__right">
+            <picture>
+                <source srcset="/files/img/dji/dji-no-cost-mobi-min.jpg" width="346" height="220"  alt="" media="(max-width: 666px)">
+                <img class="dji-no-cost__img"src="/files/img/dji/dji-no-cost-min.jpg" width="586" height="374" alt="">
+           </picture>
+        </div>
+    </div>
+</div>
+
+
+<div class="agrodom-offers">
+    <div class="agrodom-offers__rectangle"></div>
+    <div class="agrodom-offers__wrap">
+        <div class="agrodom-offers__header">
+            <p class="agrodom-offers__title agrodom-offers__text">Помимо продажи дронов Агродом предлагает</p>
+        </div>
+        <div class="agrodom-offers__center">
+            <div class="agrodom-offers__center-items">
+                <div class="agrodom-offers__center-item">
+                    <div class="agrodom-offers__center-item-svg svg-drone-1"></div>
+                    <p class="agrodom-offers__center-item-text agrodom-offers__text">Курсы для операторов дронов с получением сертификата по их завершении.</p>
+                </div>
+                <div class="agrodom-offers__center-item">
+                    <div class="agrodom-offers__center-item-svg svg-drone-2"></div>
+                    <p class="agrodom-offers__center-item-text agrodom-offers__text">Самые свежие технические новинки - дроны DJI и XAG с гарантией от производителей.</p>
+                </div>
+                <div class="agrodom-offers__center-item">
+                    <div class="agrodom-offers__center-item-svg svg-drone-3"></div>
+                    <p class="agrodom-offers__center-item-text agrodom-offers__text">Индивидуальные рекомендации по внедрению беспилотных систем опрыскивания на вашем участке.</p>
+                </div>
+            </div>
+        </div>
+        <div class="agrodom-offers__bottom">
+            <div class="agrodom-offers__bottom-top">
+                <p class="agrodom-offers__bottom-top-text agrodom-offers__text">Обращайтесь - мы поможем оптимизировать ваши полевые работы!</p>
+            </div>
+            <div class="agrodom-offers__bottom-bot">
+                <button class="agrodom-offers__button agrodom-offers__text">Связаться с нами</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="dji-download">
+    <a class="dji-download__link" href="/files/DJI-price.pdf" target="_blank"><span class="dji-download__svg svg-download"></span>Скачать прайс дронов DJI</a>
+</div>
+
+<style>
+    .dji-modal {
+        background: #FFFFFF;
+        padding: 56px 30px 59px 30px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 12;
+        width: 600px;
+    }
+    .dji-modal__text {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 23px;
+        text-align: center;
+        color: #333333;
+        margin: 0;
+    }
+
+    .dji-modal__title {
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 42px;
+    }
+    .dji-modal__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .dji-modal__form-text {
+        margin-top: 16px;
+        margin-bottom: 40px;
+    }
+    .dji-modal__form-button {
+        margin-top: 16px;
+    }
+    .dji-modal__input {
+        background: #F4F8FD !important;
+        border: 1px solid #DFE5EB !important;
+        width: 540px !important;
+        height: 47px !important;
+        padding: 0 24px !important;
+        font-family: Roboto !important;
+        font-style: normal !important;
+        font-weight: normal !important;
+        font-size: 16px !important;
+        line-height: 19px !important;
+        color: #333333 !important;
+        margin-bottom: 24px !important;
+    }
+    .dji-modal__input::placeholder {
+        font-family: Roboto !important;
+        font-style: normal !important;
+        font-weight: normal !important;
+        font-size: 16px !important;
+        line-height: 19px !important;
+        color: rgba(51, 51, 51, 0.5) !important;
+    }
+
+    .shadow {
+        width: 100%;
+        height: 100%;
+        background: rgba(10, 80, 103, 0.8);
+        z-index: 10;
+        position: fixed;
+        top: 0;
+        overflow: auto;
+    }
+    .dji-modal__form2 {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+    }
+    @media (max-width: 600px) {
+        .dji-modal {
+            width: 345px;
+        }
+        .dji-modal__input {
+            width: 285px !important;
+        }
+    }
+    .new-close {
+        cursor: pointer;
+        z-index: 1046;
+        line-height: 44px;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        width: 24px;
+        height: 24px;
+        background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDEwLjU4NkwxNi45NSA1LjYzNTk5TDE4LjM2NCA3LjA0OTk5TDEzLjQxNCAxMkwxOC4zNjQgMTYuOTVMMTYuOTUgMTguMzY0TDEyIDEzLjQxNEw3LjA1IDE4LjM2NEw1LjYzNiAxNi45NUwxMC41ODYgMTJMNS42MzYgNy4wNDk5OUw3LjA1IDUuNjM1OTlMMTIgMTAuNTg2WiIgZmlsbD0iIzJBN0FDMCIvPgo8L3N2Zz4K');
+        background-repeat: no-repeat;
+        background-size: 24px 24px;
+    }
+    .new-close:hover {
+        background: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyIDEwLjU4NkwxNi45NSA1LjYzNTk5TDE4LjM2NCA3LjA0OTk5TDEzLjQxNCAxMkwxOC4zNjQgMTYuOTVMMTYuOTUgMTguMzY0TDEyIDEzLjQxNEw3LjA1IDE4LjM2NEw1LjYzNiAxNi45NUwxMC41ODYgMTJMNS42MzYgNy4wNDk5OUw3LjA1IDUuNjM1OTlMMTIgMTAuNTg2WiIgZmlsbD0iIzBBNTA2NyIvPgo8L3N2Zz4K');
+        background-repeat: no-repeat;
+        width: 24px;
+        height: 24px;
+        background-size: 24px 24px;
+    }
+    .dji-modal.success .dji-modal__form {
+        display: none;
+    }
+    .dji-modal.success .dji-modal__form2 {
+        display: flex;
+    }
+    .dji-modal__button {
+        line-height: 19px;
+        text-align: center;
+        background: #FFEA30;
+        border-radius: 36px;
+        width: 220px;
+        height: 58px;
+        outline: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .dji-modal__button:before {
+        position: absolute;
+        content: '';
+        background: #DAC722;
+        border-radius: 36px;
+        width: 220px;
+        height: 58px;
+        z-index: -1;
+        top: 3px;
+    }
+    .dji-modal__button:hover,
+    .dji-modal__button:focus {
+        background: #0A5067
+    }
+    .dji-modal__button:hover:before,
+    .dji-modal__button:focus:before {
+        background: #072732;
+    }
+</style>
+<div class="shadow hide">
+    <div id="dji-modal" class="hide dji-modal">
+        <form action="" class="dji-modal__form">
+            <p class="dji-modal__title dji-modal__text">Оставьте заявку</p>
+            <p class="dji-modal__form-text dji-modal__text">и мы свяжемся с вами в ближайшее время</p>
+            <input class="dji-modal__input" type="text" placeholder="Ваше имя">
+            <input class="dji-modal__input jsPhone" type="text" placeholder="+7 (___)-___-__-__">
+            <button class="dji-modal__button dji-modal__form-button" type="submit">Связаться с нами</button>
+        </form>
+        <form action="" class="dji-modal__form2">
+            <p class="dji-modal__title dji-modal__text">Спасибо за заявку!</p>
+            <p class="dji-modal__form-text dji-modal__text">Скоро мы свяжемся с вами.</p>
+            <button class="dji-modal__button dji-modal__form-button" type="submit">Закрыть</button>
+        </form>
+        <div title="Close (Esc)" class="new-close"></div>
+    </div>
+</div>
+
+<script src="/files/lib/inputmask/jquery.inputmask.min.js"></script>
+<script>
+window.addEventListener("load", () => {
+
+const shadow = document.querySelector('.shadow'),
+      modal = document.querySelector('#dji-modal'),
+      button = document.querySelector('.agrodom-offers__button'),
+      form = document.querySelector('.dji-modal__form');
+      form2 = document.querySelector('.dji-modal__form2');
+
+const openModal = function() {
+    modal.classList.remove('hide');
+    shadow.classList.remove('hide');
+    document.documentElement.style.cssText = 'overflow: hidden';
+};
+
+const closeModal = function() {
+    modal.classList.add('hide');
+    modal.classList.remove('success');
+    shadow.classList.add('hide');
+    document.documentElement.style.cssText = 'overflow: unset';
+    form.reset();
+};
+
+modal.addEventListener('click', (e) => {
+    if ( e.target.classList.contains('new-close') ) {
+        closeModal();
+    }
+});
+
+shadow.addEventListener('click', (e) => {
+    if ( e.target === shadow ) {
+        closeModal();
+    }
+});
+
+document.addEventListener('keydown', (e) => {
+    if (e.code === 'Escape' && !modal.classList.contains('hide')) {
+        closeModal();
+    }
+});
+
+button.addEventListener('click', (e) => {
+    e.preventDefault();
+    openModal();
+});
+
+form.addEventListener('submit', (e) => {
+    e.preventDefault();
+    modal.classList.add('success');
+});
+
+form2.addEventListener('submit', (e) => {
+    e.preventDefault();
+    closeModal();
+});
+
+jQuery(".jsPhone").inputmask({
+        mask: "+7 (999) 999-99-99",
+        clearIncomplete: true,
+        showMaskOnHover: false,
+    });
+
+});
+</script>
