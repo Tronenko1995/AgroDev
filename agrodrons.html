@@ -1,0 +1,321 @@
+<style>
+#page {
+    margin-bottom: 0;
+}
+#page .container {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+#page .row {
+    padding: 0;
+    margin: 0;
+}
+h1.title {
+    display: none !important;
+}
+#content-inner {
+    padding: 0 !important;
+}
+
+.agr-main {
+    width: 100%;
+    min-height: 600px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background: url('/files/img/agr/bg.png');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.agr-main__wrap {
+    width: 1170px;
+    display: flex;
+}
+.agr-main__title {
+    font-family: Roboto !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 64px !important;
+    line-height: 75px !important;
+    color: #333333 !important;
+    position: relative !important;
+    width: 425px !important;
+    margin: 0 !important;
+    text-transform: none !important;
+    text-align: left !important;
+}
+.agr-main__title:after {
+    position: absolute;
+    content: '';
+    width: 69px;
+    height: 2px;
+    background: #0A5067;
+    top: 100%;
+    left: 0;
+    margin-top: 40px;
+}
+.agr-main__text {
+    margin: 82px 0 0 0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: #333333;
+    width: 459px;
+}
+.agr-main__left {
+    margin: 100px 0;
+}
+.agr-main__right {
+    margin-top: 64px;
+    width: 480px;
+    height: 248px;
+    position: relative;
+}
+.agr-main__img {
+    width: 480px;
+    height: 248px;
+    position: absolute;
+}
+
+
+.agr-num {
+    margin: 112px 0 0 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.agr-num__wrap {
+    width: 1130px;
+}
+.agr-num__header {
+    display: flex;
+    justify-content: space-between;
+}
+.agr-num__title {
+    font-family: Roboto !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 36px !important;
+    line-height: 42px !important;
+    color: #333333 !important;
+    width: fit-content !important;
+    margin: 0 !important;
+}
+.agr-num__text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    width: 570px;
+    margin: 0;
+}
+.agr-num__items {
+    display: flex;
+    flex-direction: column;
+    margin-top: 56px;
+}
+.agr-num__row {
+    display: flex;
+    margin-bottom: 30px;
+}
+.agr-num__row:last-child {
+    margin-bottom: 0;
+}
+.agr-num__item {
+    width: 350px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 31px rgba(0, 0, 0, 0.13);
+    padding: 30px 32px 50px 32px;
+    margin-right: 30px;
+}
+.agr-num__item--big {
+    width: 732px;
+}
+.agr-num__item:last-child {
+    margin-right: 0;
+}
+.agr-num__item-num {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 84px;
+    color: #2A7AC0;
+    margin: 0;
+}
+.agr-num__item-num--small {
+    font-size: 18px;
+    line-height: 21px;
+}
+.agr-num__item-desc {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333333;
+    margin: 0;
+}
+
+@media (min-width: 1921px) {
+    .agr-main {
+        background-size: cover;
+    }
+}
+
+@media (max-width: 1200px) {
+    .agr-main__wrap {
+        padding: 0 15px;
+        flex-direction: column;
+    }
+    .agr-main {
+        background: none;
+    }
+    .atr-main__left {
+        margin-top: 64px;
+        margin-bottom: 90px;
+    }
+    .agr-main__right {
+        background: url('/files/img/agr/bgFull.jpg');
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+        margin-left: -15px;
+        margin-right: -15px;
+        width: auto;
+        height: 400px;
+    }
+    .agr-main__title {
+        width: 100% !important;
+    }
+    .agr-main__text {
+        width: 100%;
+    }
+    .agr-main__img {
+        width: 190px;
+        height: 125px;
+        top: -49px;
+    }
+
+
+    .agr-num {
+        margin-top: 100px;
+    }
+    .agr-num__wrap {
+        padding: 0 15px;
+    }
+    .agr-num__header {
+        flex-direction: column;
+    }
+    .agr-num__text {
+        margin-top: 56px;
+        width: auto;
+    }
+    .agr-num__row {
+        flex-direction: column;
+        align-items: center;
+        width: fit-content;
+    }
+    .agr-num__items {
+        align-items: center;
+    }
+    .agr-num__item {
+        margin: 0 0 24px 0;
+        width: 732px;
+    }
+    .agr-num__item:last-child {
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .agr-main__title {
+        font-size: 36px !important;
+        line-height: 42px !important;
+    }
+
+    .agr-num__title {
+        font-size: 36px !important;
+        line-height: 42px !important;
+    }
+}
+
+@media (max-width: 762px) {
+    .agr-num__row {
+        width: 100%;
+    }
+    .agr-num__item {
+        width: 100%;
+    }
+}
+@media (max-width: 500px) {
+    
+    .agr-main__right {
+        margin-top: 10px;
+        background: url('/files/img/agr/bgm.jpg');
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        width: auto;
+        height: 275px;
+        background-size: cover;
+    }
+}
+</style>
+
+
+
+<div class="agr-main">
+    <div class="agr-main__wrap">
+        <div class="agr-main__left">
+            <h1 class="agr-main__title">Беспилотные агродроны</h1>
+            <p class="agr-main__text">Это новое слово в обслуживании фермерских хозяйств. Они способны полностью заменить вертолеты и самолеты - и уже сейчас превосходят их в эксплуатационных и продуктивных характеристиках.</p>
+        </div>
+        <div class="agr-main__right">
+            <picture>
+                <source srcset="/files/img/agr/agr-1m.png" media="(max-width: 1200px)" width="190" height="125">
+                <img src="/files/img/agr/agr-1.png" alt="" class="agr-main__img" width="480" height="248">
+            </picture>
+        </div>
+    </div>
+</div>
+
+<div class="agr-num">
+    <div class="agr-num__wrap">
+        <div class="agr-num__header">
+            <h2 class="agr-num__title">Беспилотники в цифрах</h2>
+            <p class="agr-num__text">Беспилотное опрыскивание, благодаря работе дронов на небольшой высоте, оказывается гораздо выгоднее, при этом, полностью исключаются расходы на горюче-смазочные материалы, работу пилотов, сигнальщиков, перерасход жидкостей для защиты растений, техобслуживание авиатехники и по другим статьям.</p>
+        </div>
+        <div class="agr-num__items">
+            <div class="agr-num__row">
+                <div class="agr-num__item">
+                    <p class="agr-num__item-num">20<span class="agr-num__item-num agr-num__item-num--small">x</span></p>
+                    <p class="agr-num__item-desc">20-кратная экономия воды;</p>
+                </div>
+                <div class="agr-num__item">
+                    <p class="agr-num__item-num">40%</p>
+                    <p class="agr-num__item-desc">На 40% меньший расход средств защиты растений;
+                    </p>
+                </div>
+                <div class="agr-num__item">
+                    <p class="agr-num__item-num">20<span class="agr-num__item-num agr-num__item-num--small">x</span></p>
+                    <p class="agr-num__item-desc">20-кратная экономия воды;</p>
+                </div>
+            </div>
+            <div class="agr-num__row">
+                <div class="agr-num__item agr-num__item--big">
+                    <p class="agr-num__item-num">24/7</p>
+                    <p class="agr-num__item-desc">Рельеф местности и расположение участка не имеют значения, как и время суток беспилотники могут работать 24/7, без праздников и выходных, в отличие от пилотируемого оборудования.</p>
+                </div>
+                <div class="agr-num__item">
+                    <p class="agr-num__item-num">8<span class="agr-num__item-num agr-num__item-num--small">м/с</span></p>
+                    <p class="agr-num__item-desc">Дроны могут работать даже при умеренном ветре (до 8 м/с), а для авиахимработ неблагоприятным условием считается скорость ветра уже 4 м/с;</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
