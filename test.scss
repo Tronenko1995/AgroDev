@@ -26,7 +26,7 @@ h1.title {
     position: relative;
     background: url('/files/img/agr/bg.png');
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 70% 50%;
 }
 .agr-main__wrap {
     width: 1170px;
@@ -73,11 +73,6 @@ h1.title {
     width: 480px;
     height: 248px;
     position: relative;
-}
-.agr-main__img {
-    width: 480px;
-    height: 248px;
-    position: absolute;
 }
 
 
@@ -197,6 +192,8 @@ h1.title {
 .agr-exellence__block {
     width: 540px;
     height: 345px;
+    overflow: hidden;
+    position: relative;
 }
 .agr-exellence__block-img {
     width: 540px;
@@ -536,11 +533,6 @@ h1.title {
     }
     .agr-main__text {
         width: 100%;
-    }
-    .agr-main__img {
-        width: 190px;
-        height: 125px;
-        top: -49px;
     }
 
 

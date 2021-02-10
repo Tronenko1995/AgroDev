@@ -1,4 +1,38 @@
+<link rel="stylesheet" href="/files/lib/swiper/swiper-bundle.min.css">
 <style>
+.swiper-pagination {
+    display: flex;
+    justify-content: center;
+}
+.swiper-pagination-bullet {
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    opacity: 1;
+
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    margin: 0 20px 0 0;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet:last-child {
+    margin: 0;
+}
+.swiper-pagination-bullet-active {
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.swiper-pagination-bullet-active:after {
+    content: '';
+    background: #2A7AC0;
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+}
 #page {
     margin-bottom: 0;
 }
@@ -27,7 +61,7 @@ h1.title {
     position: relative;
     background: url('/files/img/agr/bg.png');
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 70% 50%;
 }
 .agr-main__wrap {
     width: 1170px;
@@ -74,11 +108,6 @@ h1.title {
     width: 480px;
     height: 248px;
     position: relative;
-}
-.agr-main__img {
-    width: 480px;
-    height: 248px;
-    position: absolute;
 }
 
 
@@ -198,6 +227,8 @@ h1.title {
 .agr-exellence__block {
     width: 540px;
     height: 345px;
+    overflow: hidden;
+    position: relative;
 }
 .agr-exellence__block-img {
     width: 540px;
@@ -380,18 +411,18 @@ h1.title {
     justify-content: center;
     width: 100%;
     position: relative;
-    margin-top: 100px;
+    margin-top: 112px;
+    margin-bottom: 112px;
     z-index: 2;
     background: #F4F8FD;
 }
 .agrodom-offers__wrap {
-    margin-top: 112px;
-    margin-bottom: 112px;
     width: 1110px;
 }
 .agrodom-offers__header {
     display: flex;
     justify-content: center;
+    margin-top: 140px;
 }
 .agrodom-offers__text {
     margin: 0;
@@ -538,11 +569,6 @@ h1.title {
     }
     .agr-main__text {
         width: 100%;
-    }
-    .agr-main__img {
-        width: 190px;
-        height: 125px;
-        top: -49px;
     }
 
 
@@ -722,9 +748,6 @@ h1.title {
     }
     .agrodom-offers {
         margin-top: 100px;
-    }
-    .agrodom-offers__wrap {
-        margin-top: 100px;
         margin-bottom: 100px;
     }
     .agrodom-offers__title {
@@ -782,12 +805,7 @@ h1.title {
             <h1 class="agr-main__title">Беспилотные агродроны</h1>
             <p class="agr-main__text">Это новое слово в обслуживании фермерских хозяйств. Они способны полностью заменить вертолеты и самолеты - и уже сейчас превосходят их в эксплуатационных и продуктивных характеристиках.</p>
         </div>
-        <div class="agr-main__right">
-            <picture>
-                <source srcset="/files/img/agr/agr-1m.png" media="(max-width: 1200px)" width="190" height="125">
-                <img src="/files/img/agr/agr-1.png" alt="" class="agr-main__img" width="480" height="248">
-            </picture>
-        </div>
+        <div class="agr-main__right"></div>
     </div>
 </div>
 
@@ -809,8 +827,8 @@ h1.title {
                     </p>
                 </div>
                 <div class="agr-num__item">
-                    <p class="agr-num__item-num">20<span class="agr-num__item-num agr-num__item-num--small">x</span></p>
-                    <p class="agr-num__item-desc">20-кратная экономия воды;</p>
+                    <p class="agr-num__item-num">3-8%</p>
+                    <p class="agr-num__item-desc">На 3-8% больший урожай (посевы не уничтожаются наземной техникой);</p>
                 </div>
             </div>
             <div class="agr-num__row">
@@ -866,9 +884,9 @@ h1.title {
 
 <div class="agr-performance">
     <div class="agr-performance__info">
-        <h2 class="agr-performance__info-title">Равномерное распыление</h2>
-        <p class="agr-performance__info-text">Благодаря регулируемым форсункам дрон обеспечивает одинаковый размер микрокапель (от 150 до 250 мкм). Таким образом, на 1 кв.см листовой поверхности попадает около 40-45 капель.</p>
-        <p class="agr-performance__info-text">Это не оставляет “слепых зон”, на которых могут оставаться паразиты, а также обеспечивает лучшее усвоение внекорневых подкормок. Безнапорный полив дождеванием также не размывает верхний слой почвы, не нарушает ее структуру и безопасен для растений.</p>
+        <h2 class="agr-performance__info-title">Повышение эффективности аграрных
+            мероприятий</h2>
+        <p class="agr-performance__info-text">Обработка точно по ряду или с высокой плотностью распыления повышает эффективность аграрных мероприятий (например, десикации). Дроны работают без характерных “линий” на поле, которые оставляет пилотируемая техника.</p>
     </div>
 </div>
 
@@ -889,11 +907,22 @@ h1.title {
             </div>
         </div>
         <div class="agr-exellence__row agr-exellence__row-4">
-            <div class="agr-exellence__block">
-                <picture>
-                    <source srcset="/files/img/agr/agr-exellence-4m.jpg" media="(max-width: 600px)" width="345" height="220">
-                    <img class="agr-exellence__block-img" src="/files/img/agr/agr-exellence-4.jpg" alt="" width="540" height="345">
-                </picture>
+            <div class="agr-exellence__block swiper-container jsAgrSlider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <picture>
+                            <source srcset="/files/img/agr/agr-exellence-4m.jpg" media="(max-width: 600px)" width="345" height="220">
+                            <img class="agr-exellence__block-img" src="/files/img/agr/agr-exellence-4.jpg" alt="" width="540" height="345">
+                        </picture>
+                    </div>
+                    <div class="swiper-slide">
+                        <picture>
+                            <source srcset="/files/img/agr/agr-exellence-5m.jpg" media="(max-width: 600px)" width="345" height="220">
+                            <img class="agr-exellence__block-img" src="/files/img/agr/agr-exellence-5.jpg" alt="" width="540" height="345">
+                        </picture>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
             </div>
             <div class="agr-exellence__info">
                 <h3 class="agr-exellence__info-title">Дроны не ошибаются</h3>
@@ -1131,6 +1160,7 @@ h1.title {
     </div>
 </div>
 <script src="/files/lib/inputmask/jquery.inputmask.min.js"></script>
+<script src="/files/lib/swiper/swiper-bundle.min.js"></script>
 <script>
     window.addEventListener("load", () => {
 
@@ -1210,6 +1240,20 @@ h1.title {
             mask: "+7 (999) 999-99-99",
             clearIncomplete: true,
             showMaskOnHover: false,
-        });
     });
-    </script>
+
+    const agrSlider = new Swiper('.jsAgrSlider', {
+        loop: true,
+        effect: 'fade',
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true
+        }
+    });
+
+});
+</script>
